@@ -454,3 +454,82 @@ footer img{
     right: 0px;
     bottom: 0px;
 }
+
+/* PAGES COURSE */
+
+.section-jumbotron {
+    background: url('../images/bg-jumbotron-course.png') 100% no-repeat;
+    background-size: cover;
+    color: #FAF8F9;
+    position: relative;
+}
+
+.section-jumbotron .title {
+    font-family: 'NotoSansBold';
+    font-size: 72px;
+    border-bottom: 10px solid #FFB93C;
+    display: inline-block;
+}
+
+.section-jumbotron .description {
+    font-family: 'NotoSansSemiBold';
+    font-size: 32px;
+}
+
+.section-jumbotron .paragraph {
+    font-family: 'NotoSans';
+    font-size: 20px;
+    opacity: 0.75;
+}
+
+.section-jumbotron button {
+    font-family: 'NotoSansSemiBold';
+    font-size: 20px;
+    color: #2447F9;
+    background-color: #FAF8F9 !important;
+    border-radius: 10px;
+}
+
+.section-jumbotron img{
+    position: absolute;
+    width: 300px;
+    bottom: 0;
+    right: 0;
+}
+
+.section-courses .input-group{
+    font-family: 'NotoSansMedium';
+    font-size: 18px;
+    color: #121212;
+    opacity: 0.75;
+    line-height: 25px;
+    border-radius: 10px;
+}
+
+.section-courses .input-group input{
+   border-radius: 10px;
+}
+
+.section-courses .input-group span{
+   border-radius: 10px;
+}
+
+.section-courses select{
+    font-family: 'NotoSansMedium';
+    font-size: 18px;
+    color: #121212;
+    opacity: 0.75;
+    line-height: 25px;
+    border-radius: 10px;
+    padding: 11px;
+}
+
+.section-courses button {
+    background-color: #2447F9;
+    color: #FAF8F9;
+    padding: 11px;
+    font-size: 18px;
+    font-family: 'NotoSans';
+    font-weight: 500;
+    line-height: 25px;
+}

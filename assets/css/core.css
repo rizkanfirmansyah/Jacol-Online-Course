@@ -126,6 +126,11 @@ SUB ALTERNATIF COLOR : #6491AA
     src: url('/assets/fonts/NotoSansDisplay-Medium.ttf');
 }
 
+@font-face {
+    font-family: 'NotoSansBlack';
+    src: url('/assets/fonts/NotoSansDisplay-Black.ttf');
+}
+
 .font-poppins{
     font-family: 'Poppins';
 }
