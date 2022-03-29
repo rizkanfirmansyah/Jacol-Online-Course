@@ -1,0 +1,149 @@
+/* 
+
+PRIMARY COLOR : #FFB93C   
+SECONDARY COLOR : #2447F9   
+ALTERNATIF COLOR : #6491EE   
+SUBTITUSI COLOR : #FF73B8   
+LIGHT COLOR : #FAF8F9   
+DARK COLOR : #121212   
+SUB ALTERNATIF COLOR : #6491AA   
+
+*/
+
+.bgr-primary {
+    background-color: #FFB93C !important;
+}
+
+.bgr-secondary {
+    background-color: #2447F9 !important;
+}
+
+.bgr-alternatif {
+    background-color: #6491EE !important;
+}
+
+.bgr-subtitution {
+    background-color: #FF73B8 !important;
+}
+
+.bgr-light {
+    background-color: #FAF8F9 !important;
+}
+
+.bgr-dark {
+    background-color: #121212 !important;
+}
+
+.bgr-sub-alternatif {
+    background-color: #6491AA !important;
+}
+
+.color-primary {
+    color: #FFB93C !important;
+}
+
+.color-secondary {
+    color: #2447F9 !important;
+}
+
+.color-alternatif {
+    color: #6491EE !important;
+}
+
+.color-subtitution {
+    color: #FF73B8 !important;
+}
+
+.color-light {
+    color: #FAF8F9 !important;
+}
+
+.color-dark {
+    color: #121212 !important;
+}
+
+.color-sub-alternatif {
+    color: #6491AA !important;
+}
+
+@font-face {
+    font-family: 'PoppinsBold';
+    src: url('/assets/fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'PoppinsSemiBold';
+    src: url('/assets/fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url('/assets/fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/assets/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'PoppinsLight';
+    src: url('/assets/fonts/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: 'PoppinsBlack';
+    src: url('/assets/fonts/Poppins-Black.ttf');
+}
+
+@font-face {
+    font-family: 'NotoSansBold';
+    src: url('/assets/fonts/NotoSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    src: url('/assets/fonts/NotoSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'NotoSansLight';
+    src: url('/assets/fonts/NotoSansDisplay-Light.ttf');
+}
+
+@font-face {
+    font-family: 'NotoSansExtraLight';
+    src: url('/assets/fonts/NotoSansDisplay-ExtraLight.ttf');
+}
+
+.font-poppins{
+    font-family: 'Poppins';
+}
+
+.font-poppins-bold{
+    font-family: 'PoppinsBold';
+}
+
+.font-poppins-semibold{
+    font-family: 'PoppinsSemiBold';
+}
+
+.font-poppins-medium{
+    font-family: 'PoppinsMedium';
+}
+
+.font-poppins-light{
+    font-family: 'PoppinsLight';
+}
+
+.font-notosans-light{
+    font-family: 'NotoSansLight';
+}
+
+.font-notosans{
+    font-family: 'NotoSans';
+}
+
+.font-notosans-bold{
+    font-family: 'NotoSansBold';
+}

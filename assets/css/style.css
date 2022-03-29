@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section-header nav .container {
+    font-family: 'PoppinsSemiBold';
+}
+
+.section-header nav .container .navbar-brand {
+    font-size: 28px;
+}
+
+.section-header nav .container .navbar-brand span {
+    margin-left: 10px;
+}
+
+.section-header nav .container #navbarMenus {
+    font-family: 'PoppinsMedium';
+}
+
+.section-header button.bgr-dark {
+    border-radius: 15px;
+}
+
+.section-highlight{
+    background-image: url('../images/bg-jumbotron.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.section-highlight .title {
+    font-size: 62px;
+    font-family: 'PoppinsBold';
+    border-bottom: 15px solid #FFB93C;
+    display: inline-block;
+}
+
+.section-highlight .paragraph {
+    font-size: 18px;
+    font-family: 'NotoSans';
+    font-weight: 400;
+}
+
+.section-highlight button {
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    
+    font-family: 'NotoSans';
+    font-weight: 500;
+}
+
+.section-learning {
+    z-index: 99;
+    position: relative;
+}
+
+.section-learning .container{
+    border-radius: 20px;
+    margin-top: -120px;
+    background: url('../images/bg-learning.png') 100% no-repeat;
+    background-size: cover;
+}
+
+.section-learning .tag{
+    font-family: 'NotoSansLight';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.24em;
+}
+
+.section-learning .title{
+    font-family: 'PoppinsBold';
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.section-learning .paragraph{
+    font-family: 'NotoSans';
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.section-learning button{
+    border-radius: 15px;
+    padding:10px 25px;
+    font-size: 18px;
+    font-family: 'NotoSans';
+    font-weight: 500;
+}
+
+.section-learning .card{
+    background-color: #1B1A1A;
+    font-family: 'NotoSans';
+    font-size: 16px;
+}
