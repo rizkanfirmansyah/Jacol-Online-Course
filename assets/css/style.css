@@ -609,7 +609,7 @@ footer img {
     border-radius: 5px;
 }
 
-.section-course #paginate button.actives{
+.section-course #paginate button.actives {
     width: 50px;
     font-family: 'NotoSansSemiBold';
     font-size: 16px;
@@ -628,14 +628,14 @@ footer img {
     background-size: cover;
 }
 
-.section-testimonial .tag{
+.section-testimonial .tag {
     color: #FAF8F9;
     font-family: 'NotoSans';
     font-size: 20px;
     line-height: 27px;
 }
 
-.section-testimonial .title{
+.section-testimonial .title {
     color: #FAF8F9;
     font-family: 'NotoSans';
     font-weight: 500;
@@ -643,18 +643,18 @@ footer img {
     line-height: 65px;
 }
 
-.section-testimonial .card .title{
+.section-testimonial .card .title {
     color: #121212;
     font-family: 'PoppinsMedium';
     font-size: 24px;
     line-height: 36px;
 }
 
-.section-testimonial .card .stars{
+.section-testimonial .card .stars {
     color: #FFB93C;
 }
 
-.section-testimonial .card .paragraph{
+.section-testimonial .card .paragraph {
     font-family: 'Poppins';
     font-size: 14px;
     color: #121212;
@@ -662,9 +662,126 @@ footer img {
     line-height: 24px;
 }
 
-.section-testimonial .card .name{
+.section-testimonial .card .name {
     font-family: 'PoppinsMedium';
     font-size: 16px;
     color: #121212;
     line-height: 24px;
+}
+
+.section-jumbotron-detail .title {
+    font-family: 'PoppinsBold';
+    font-size: 32px;
+    line-height: 48px;
+    color: #121212;
+}
+
+.section-jumbotron-detail .paragraph {
+    font-family: 'NotoSans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #121212;
+    opacity: 0.5;
+}
+
+.section-jumbotron-detail button {
+    background: rgba(55, 101, 196, 0.25);
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2447F9;
+    width: auto;
+}
+
+.section-jumbotron-detail h5.tag {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'NotoSans';
+    color: #121212;
+    opacity: 0.75;
+}
+
+.section-jumbotron-detail h5.title {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'PoppinsBold';
+    color: #121212;
+}
+
+.section-jumbotron-detail h5.star {
+    color: #FFB93C;
+}
+
+.section-jumbotron-detail .row #pills-tab li.nav-item button {
+    font-family: 'NotoSans' !important;
+    color: #121212 !important;
+    opacity: 0.75 !important;
+}
+
+.section-jumbotron-detail .row #pills-tab {
+    border-bottom: 0.8px solid rgba(18, 18, 18, 0.5) !important;
+}
+
+.section-jumbotron-detail .row #pills-tab li.nav-item button.active {
+    font-family: 'NotoSansMedium' !important;
+    color: #2447F9 !important;
+    opacity: 0.75 !important;
+    background-color: transparent;
+    border-bottom: #2447F9 2px solid !important;
+    width: 100px;
+}
+
+.section-jumbotron-detail .row .tab-content .title {
+    font-family: 'NotoSansSemiBold';
+    color: #121212;
+    opacity: 0.75;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.section-jumbotron-detail .row .tab-content .subtitle {
+    font-family: 'NotoSansMedium';
+    color: #121212;
+    opacity: 0.75;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.section-jumbotron-detail .row .tab-content button {
+    font-family: 'NotoSansMedium';
+    color: #FAF8F9;
+    line-height: 24px;
+    font-size: 18px;
+    background-color: #2447F9;
+}
+
+.section-jumbotron-detail .row .tab-content .paragraph {
+    font-family: 'NotoSans';
+    color: #121212;
+    opacity: 0.75;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 166.2%;
+}
+
+.section-jumbotron-detail .row .tab-content .row .col-md-6 {
+    font-family: 'NotoSans';
+    color: #121212;
+    opacity: 0.75;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.section-jumbotron-detail .row .tab-content .row .col-md-6 i {
+    color: #2447F9;
+    opacity: 0.75;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
 }
