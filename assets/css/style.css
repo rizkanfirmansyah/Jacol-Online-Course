@@ -97,14 +97,14 @@ body {
     font-size: 16px;
 }
 
-.section-role .tag{
+.section-role .tag {
     font-family: 'NotoSansLight';
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 0.24em;
 }
 
-.section-role .title{
+.section-role .title {
     font-family: 'PoppinsBold';
     font-size: 32px;
     line-height: 48px;
@@ -116,6 +116,7 @@ body {
     font-family: 'PoppinsMedium';
     color: #121212;
 }
+
 .section-role #roles a.active img {
     position: relative;
     margin-top: -35px;
@@ -198,7 +199,7 @@ body {
     background-size: contain;
 }
 
-.section-profile-1 img{
+.section-profile-1 img {
     width: 460px;
 }
 
@@ -235,7 +236,7 @@ body {
     background-size: contain;
 }
 
-.section-profile-2 img{
+.section-profile-2 img {
     width: 460px;
 }
 
@@ -267,6 +268,93 @@ body {
     font-weight: 500;
 }
 
-.section-profile-2 img{
+.section-profile-2 img {
     width: 400px;
+}
+
+
+.section-course .tag {
+    font-family: 'NotoSansLight';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.24em;
+}
+
+.section-course .title {
+    font-family: 'PoppinsBold';
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.section-course button {
+    background: rgba(18, 18, 18, 0.1);
+    border-radius: 10px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    width: 166px;
+    text-align: center;
+
+    color: rgba(18, 18, 18, 0.75);
+}
+
+.section-course .container .row .row .col-md-4 {
+    position: relative;
+}
+
+.section-course .container .row .row .col-md-4 .card{
+    border: none;
+    border-radius: 10px;
+}
+
+.section-course .container .col-md-4 .card .label{
+    position:absolute;
+    left: 20px;
+    top:20px;
+    font-family: 'NotoSans';
+    font-size: 14px;
+    color: #FAF8F9;
+    background-color: #2447F9;
+    border-radius: 7px;
+    width: 81px;
+    text-align: center;
+}
+
+.section-course .container .col-md-4 .card .title {
+    font-family: 'NotoSansMedium';
+    color: #121212;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.section-course .container .col-md-4 .card .category {
+    font-family: 'NotoSansMedium';
+    color: #121212;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.section-course .container .col-md-4 .card .description {
+    font-family: 'NotoSans';
+    color: #121212;
+    opacity: 0.75;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.section-course .container .col-md-4 .card .d-flex a {
+    color: #FAF8F9;
+    font-family: 'NotoSansSemiBold';
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.section-course .container .col-md-4 .card .d-grid a {
+    color: #FAF8F9;
+    font-family: 'NotoSansSemiBold';
+    font-size: 18px;
+    line-height: 24px;
 }
