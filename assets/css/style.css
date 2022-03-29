@@ -193,11 +193,80 @@ body {
     font-size: 64px;
 }
 
-.section-profile {
+.section-profile-1 {
     background: url('../images/bg-about-1.png') 100%no-repeat;
     background-size: contain;
 }
 
-.section-profile img{
+.section-profile-1 img{
     width: 460px;
+}
+
+.section-profile-1 .tag {
+    font-family: 'NotoSansLight';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.24em;
+}
+
+.section-profile-1 .title {
+    font-family: 'PoppinsBold';
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.section-profile-1 .paragraph {
+    font-family: 'NotoSans';
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.section-profile-1 button {
+    border-radius: 15px;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-family: 'NotoSans';
+    font-weight: 500;
+}
+
+.section-profile-2 {
+    background: url('../images/bg-about-2.png') 100% no-repeat;
+    background-size: contain;
+}
+
+.section-profile-2 img{
+    width: 460px;
+}
+
+.section-profile-2 .tag {
+    font-family: 'NotoSansLight';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.24em;
+}
+
+.section-profile-2 .title {
+    font-family: 'PoppinsBold';
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.section-profile-2 .paragraph {
+    font-family: 'NotoSans';
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.section-profile-2 button {
+    border-radius: 15px;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-family: 'NotoSans';
+    font-weight: 500;
+}
+
+.section-profile-2 img{
+    width: 400px;
 }
