@@ -239,7 +239,7 @@ body {
 }
 
 .section-profile-2 img {
-    position:absolute;
+    position: absolute;
     bottom: 60px;
     width: 380px;
     right: 80px;
@@ -287,7 +287,7 @@ body {
 }
 
 .section-profile-2 .card {
-    border:none;
+    border: none;
     border-radius: 10px;
 }
 
@@ -324,15 +324,15 @@ body {
     position: relative;
 }
 
-.section-course .container .row .row .col-md-4 .card{
+.section-course .container .row .row .col-md-4 .card {
     border: none;
     border-radius: 10px;
 }
 
-.section-course .container .col-md-4 .card .label{
-    position:absolute;
+.section-course .container .col-md-4 .card .label {
+    position: absolute;
     left: 20px;
-    top:20px;
+    top: 20px;
     font-family: 'NotoSans';
     font-size: 14px;
     color: #FAF8F9;
@@ -384,7 +384,7 @@ body {
     color: #FAF8F9;
 }
 
-.section-hero .container{
+.section-hero .container {
     background: url('../images/bg-jumbotron-hero.png') 100% no-repeat;
     background-size: cover;
 }
@@ -410,16 +410,16 @@ body {
     font-weight: 500;
 }
 
-.section-sponsor{
+.section-sponsor {
     background-color: #121212;
     opacity: 0.75;
 }
 
-.section-sponsor img{
+.section-sponsor img {
     max-width: 151px;
 }
 
-footer h1{
+footer h1 {
     font-family: 'PoppinsSemiBold';
     color: #FAF8F9;
     font-size: 28px;
@@ -441,7 +441,7 @@ footer ul li {
     margin-top: 15px;
 }
 
-footer .copyright{
+footer .copyright {
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 16px;
@@ -449,7 +449,7 @@ footer .copyright{
     opacity: 0.5;
 }
 
-footer img{
+footer img {
     position: absolute;
     right: 0px;
     bottom: 0px;
@@ -490,34 +490,36 @@ footer img{
     border-radius: 10px;
 }
 
-.section-jumbotron img{
+.section-jumbotron img {
     position: absolute;
     width: 300px;
     bottom: 0;
     right: 0;
 }
 
-.section-courses .input-group{
+.section-courses {
+    color: #121212;
+}
+
+.section-courses .input-group {
     font-family: 'NotoSansMedium';
     font-size: 18px;
-    color: #121212;
     opacity: 0.75;
     line-height: 25px;
     border-radius: 10px;
 }
 
-.section-courses .input-group input{
-   border-radius: 10px;
+.section-courses .input-group input {
+    border-radius: 10px;
 }
 
-.section-courses .input-group span{
-   border-radius: 10px;
+.section-courses .input-group span {
+    border-radius: 10px;
 }
 
-.section-courses select{
+.section-courses select {
     font-family: 'NotoSansMedium';
     font-size: 18px;
-    color: #121212;
     opacity: 0.75;
     line-height: 25px;
     border-radius: 10px;
@@ -532,4 +534,137 @@ footer img{
     font-family: 'NotoSans';
     font-weight: 500;
     line-height: 25px;
+}
+
+.section-courses .result {
+    font-family: 'Poppins';
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 500;
+}
+
+.section-courses .related {
+    font-family: 'NotoSans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    opacity: 0.75;
+
+}
+
+.section-courses .results {
+    color: #2447F9;
+}
+
+.section-courses #tags {
+    font-family: 'NotoSans';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.section-courses #tags .active {
+    color: #6491EE;
+    border-bottom: 2.5px solid #6491EE;
+    display: inline-block;
+}
+
+.section-course .show {
+    opacity: 0.5;
+    font-family: 'NotoSansMedium';
+}
+
+.section-course select {
+    font-family: 'NotoSansSemiBold';
+}
+
+.section-course span.data {
+    font-family: 'NotoSansSemiBold';
+}
+
+.section-course #paginate button {
+    width: 50px;
+    font-family: 'NotoSansSemiBold';
+    font-size: 16px;
+    line-height: 22px;
+    opacity: 0.75;
+    background-color: #FAF8F9;
+    border: 0.2px solid rgba(18, 18, 18, 0.5);
+    box-sizing: border-box;
+    box-shadow: 6px 6px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.section-course #paginate button.active {
+    width: 50px;
+    font-family: 'NotoSansSemiBold';
+    font-size: 16px;
+    line-height: 22px;
+    color: #6491EE;
+    opacity: 0.75;
+    background-color: #FAF8F9;
+    border: 1px solid #6491EE;
+    box-sizing: border-box;
+    box-shadow: 6px 6px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.section-course #paginate button.actives{
+    width: 50px;
+    font-family: 'NotoSansSemiBold';
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAF8F9;
+    opacity: 0.75;
+    background-color: #6491EE;
+    border: 1px solid #FAF8F9;
+    box-sizing: border-box;
+    box-shadow: 6px 6px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.section-testimonial {
+    background: url('../images/bg-testimonial.png') 100% 100% no-repeat;
+    background-size: cover;
+}
+
+.section-testimonial .tag{
+    color: #FAF8F9;
+    font-family: 'NotoSans';
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.section-testimonial .title{
+    color: #FAF8F9;
+    font-family: 'NotoSans';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.section-testimonial .card .title{
+    color: #121212;
+    font-family: 'PoppinsMedium';
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.section-testimonial .card .stars{
+    color: #FFB93C;
+}
+
+.section-testimonial .card .paragraph{
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #121212;
+    opacity: 0.5;
+    line-height: 24px;
+}
+
+.section-testimonial .card .name{
+    font-family: 'PoppinsMedium';
+    font-size: 16px;
+    color: #121212;
+    line-height: 24px;
 }
