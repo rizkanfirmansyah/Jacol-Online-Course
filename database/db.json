@@ -4,55 +4,55 @@
             "id": 1,
             "group": "learning",
             "icon": "pelajaran-1.png",
-            "nama": "Matematika"
+            "name": "Matematika"
         },
         {
             "id": 2,
             "group": "learning",
             "icon": "pelajaran-2.png",
-            "nama": "IPA"
+            "name": "IPA"
         },
         {
             "id": 3,
             "group": "learning",
             "icon": "pelajaran-3.png",
-            "nama": "IPS"
+            "name": "IPS"
         },
         {
             "id": 4,
             "group": "learning",
             "icon": "pelajaran-4.png",
-            "nama": "Agama"
+            "name": "Agama"
         },
         {
             "id": 5,
             "group": "learning",
             "icon": "pelajaran-5.png",
-            "nama": "PKN"
+            "name": "PKN"
         },
         {
             "id": 6,
             "group": "learning",
             "icon": "pelajaran-6.png",
-            "nama": "Seni Budaya"
+            "name": "Seni Budaya"
         },
         {
             "id": 7,
             "group": "learning",
             "icon": "pelajaran-7.png",
-            "nama": "Olahraga"
+            "name": "Olahraga"
         },
         {
             "id": 8,
             "group": "learning",
             "icon": "pelajaran-8.png",
-            "nama": "B. Indonesia"
+            "name": "B. Indonesia"
         },
         {
             "id": 9,
             "group": "learning",
             "icon": "pelajaran-9.png",
-            "nama": "B. Inggris"
+            "name": "B. Inggris"
         }
     ]
 }
