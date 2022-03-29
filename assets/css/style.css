@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #FAF8F9;
 }
 
 .section-header nav .container {
@@ -234,10 +235,14 @@ body {
 .section-profile-2 {
     background: url('../images/bg-about-2.png') 100% no-repeat;
     background-size: contain;
+    position: relative;
 }
 
 .section-profile-2 img {
-    width: 460px;
+    position:absolute;
+    bottom: 60px;
+    width: 380px;
+    right: 80px;
 }
 
 .section-profile-2 .tag {
@@ -254,10 +259,16 @@ body {
     line-height: 48px;
 }
 
-.section-profile-2 .paragraph {
-    font-family: 'NotoSans';
+.section-profile-2 .card .title {
+    font-family: 'NotoSansMedium';
     font-size: 18px;
-    line-height: 24px;
+    line-height: 27px;
+}
+
+.section-profile-2 .card .description {
+    font-family: 'NotoSans';
+    font-size: 13px;
+    line-height: 20px;
 }
 
 .section-profile-2 button {
@@ -268,8 +279,16 @@ body {
     font-weight: 500;
 }
 
-.section-profile-2 img {
-    width: 400px;
+.section-profile-2 .card img {
+    width: 60px;
+    bottom: 0px;
+    position: relative;
+    right: 0px;
+}
+
+.section-profile-2 .card {
+    border:none;
+    border-radius: 10px;
 }
 
 
@@ -398,4 +417,36 @@ body {
 
 .section-sponsor img{
     max-width: 151px;
+}
+
+footer {
+    background-color: #121212;
+}
+
+footer h1{
+    font-family: 'PoppinsSemiBold';
+    color: #FAF8F9;
+    font-size: 28px;
+}
+
+footer {
+    font-family: 'Poppins';
+    color: #FAF8F9;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+footer ul li {
+    list-style: none;
+    margin-left: -30px;
+    margin-top: 15px;
+}
+
+footer .copyright{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FAF8F9;
+    opacity: 0.5;
 }
