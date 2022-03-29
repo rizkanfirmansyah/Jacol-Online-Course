@@ -23,7 +23,7 @@ body {
     border-radius: 15px;
 }
 
-.section-highlight{
+.section-highlight {
     background-image: url('../images/bg-jumbotron.png');
     background-repeat: no-repeat;
     background-size: auto;
@@ -46,7 +46,7 @@ body {
     font-size: 18px;
     border-radius: 10px;
     padding: 10px 30px;
-    
+
     font-family: 'NotoSans';
     font-weight: 500;
 }
@@ -56,14 +56,14 @@ body {
     position: relative;
 }
 
-.section-learning .container{
+.section-learning .container {
     border-radius: 20px;
     margin-top: -120px;
     background: url('../images/bg-learning.png') 100% no-repeat;
     background-size: cover;
 }
 
-.section-learning .tag{
+.section-learning .tag {
     font-family: 'NotoSansLight';
     font-weight: 300;
     font-size: 18px;
@@ -71,28 +71,54 @@ body {
     letter-spacing: 0.24em;
 }
 
-.section-learning .title{
+.section-learning .title {
     font-family: 'PoppinsBold';
     font-size: 32px;
     line-height: 48px;
 }
 
-.section-learning .paragraph{
+.section-learning .paragraph {
     font-family: 'NotoSans';
     font-size: 18px;
     line-height: 24px;
 }
 
-.section-learning button{
+.section-learning button {
     border-radius: 15px;
-    padding:10px 25px;
+    padding: 10px 25px;
     font-size: 18px;
     font-family: 'NotoSans';
     font-weight: 500;
 }
 
-.section-learning .card{
+.section-learning .card {
     background-color: #1B1A1A;
     font-family: 'NotoSans';
     font-size: 16px;
+}
+
+.section-role .accordion-item {
+    border: none;
+    background: transparent !important;
+}
+
+.section-role .accordion-button {
+    color: #1B1A1A;
+    background-color: transparent;
+    border: none !important;
+}
+
+.section-role .accordion-button:focus {
+    z-index: 3;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+.section-role .accordion-button.collapsed::after {
+    background-image: url("../icons/plus.png");
+}
+
+.section-role .accordion-button:not(.collapsed)::after {
+	background-image: url("../icons/plus.png");
 }

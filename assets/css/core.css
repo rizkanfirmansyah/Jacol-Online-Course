@@ -116,6 +116,11 @@ SUB ALTERNATIF COLOR : #6491AA
     src: url('/assets/fonts/NotoSansDisplay-ExtraLight.ttf');
 }
 
+@font-face {
+    font-family: 'NotoSansSemiBold';
+    src: url('/assets/fonts/NotoSansDisplay-SemiBold.ttf');
+}
+
 .font-poppins{
     font-family: 'Poppins';
 }
