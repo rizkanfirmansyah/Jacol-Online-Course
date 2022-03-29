@@ -152,3 +152,7 @@ SUB ALTERNATIF COLOR : #6491AA
 .font-notosans-bold{
     font-family: 'NotoSansBold';
 }
+
+.font-notosans-semibold{
+    font-family: 'NotoSansSemiBold';
+}
