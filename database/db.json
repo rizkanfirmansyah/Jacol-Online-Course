@@ -1,0 +1,58 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "group": "learning",
+            "icon": "pelajaran-1.png",
+            "nama": "Matematika"
+        },
+        {
+            "id": 2,
+            "group": "learning",
+            "icon": "pelajaran-2.png",
+            "nama": "IPA"
+        },
+        {
+            "id": 3,
+            "group": "learning",
+            "icon": "pelajaran-3.png",
+            "nama": "IPS"
+        },
+        {
+            "id": 4,
+            "group": "learning",
+            "icon": "pelajaran-4.png",
+            "nama": "Agama"
+        },
+        {
+            "id": 5,
+            "group": "learning",
+            "icon": "pelajaran-5.png",
+            "nama": "PKN"
+        },
+        {
+            "id": 6,
+            "group": "learning",
+            "icon": "pelajaran-6.png",
+            "nama": "Seni Budaya"
+        },
+        {
+            "id": 7,
+            "group": "learning",
+            "icon": "pelajaran-7.png",
+            "nama": "Olahraga"
+        },
+        {
+            "id": 8,
+            "group": "learning",
+            "icon": "pelajaran-8.png",
+            "nama": "B. Indonesia"
+        },
+        {
+            "id": 9,
+            "group": "learning",
+            "icon": "pelajaran-9.png",
+            "nama": "B. Inggris"
+        }
+    ]
+}

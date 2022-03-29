@@ -419,10 +419,6 @@ body {
     max-width: 151px;
 }
 
-footer {
-    background-color: #121212;
-}
-
 footer h1{
     font-family: 'PoppinsSemiBold';
     color: #FAF8F9;
@@ -430,11 +426,13 @@ footer h1{
 }
 
 footer {
+    background-color: #121212;
     font-family: 'Poppins';
     color: #FAF8F9;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
+    position: relative;
 }
 
 footer ul li {
@@ -449,4 +447,10 @@ footer .copyright{
     font-size: 16px;
     color: #FAF8F9;
     opacity: 0.5;
+}
+
+footer img{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
 }
