@@ -390,3 +390,12 @@ body {
     font-family: 'NotoSans';
     font-weight: 500;
 }
+
+.section-sponsor{
+    background-color: #121212;
+    opacity: 0.75;
+}
+
+.section-sponsor img{
+    max-width: 151px;
+}
