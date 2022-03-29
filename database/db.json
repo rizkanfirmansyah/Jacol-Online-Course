@@ -73,7 +73,7 @@
             "name": "Pengrajin",
             "active": false,
             "feature": {
-                "about": "Kesatria pemberani yang mengayunkan pedangnya untuk melindungi yang lemah dan melawan kejahatan.",
+                "about": "Pengrajin merupakan orang yang ahli dalam membuat sesuatu yang menakjubkan seperti senjata dan alat lainnya",
                 "advantage" : "bla bla bla",
                 "purpose" : "bla bla"
             }
@@ -85,7 +85,7 @@
             "name": "Penyihir",
             "active": false,
             "feature": {
-                "about": "Kesatria pemberani yang mengayunkan pedangnya untuk melindungi yang lemah dan melawan kejahatan.",
+                "about": "Penyihir bertugas untuk membentuk ramuan obat yang mampu memberikan support kepada kesatria dan pertahanan yang kokoh",
                 "advantage" : "bla bla bla",
                 "purpose" : "bla bla"
             }
