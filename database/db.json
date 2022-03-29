@@ -59,21 +59,36 @@
             "group": "role",
             "icon": "role-1.png",
             "name": "Kesatria",
-            "active": true
+            "active": true,
+            "feature": {
+                "about": "Kesatria pemberani yang mengayunkan pedangnya untuk melindungi yang lemah dan melawan kejahatan.",
+                "advantage" : "bla bla bla",
+                "purpose" : "bla bla"
+            }
         },
         {
             "id": 11,
             "group": "role",
             "icon": "role-2.png",
             "name": "Pengrajin",
-            "active": false
+            "active": false,
+            "feature": {
+                "about": "Kesatria pemberani yang mengayunkan pedangnya untuk melindungi yang lemah dan melawan kejahatan.",
+                "advantage" : "bla bla bla",
+                "purpose" : "bla bla"
+            }
         },
         {
             "id": 12,
             "group": "role",
             "icon": "role-3.png",
             "name": "Penyihir",
-            "active": false
+            "active": false,
+            "feature": {
+                "about": "Kesatria pemberani yang mengayunkan pedangnya untuk melindungi yang lemah dan melawan kejahatan.",
+                "advantage" : "bla bla bla",
+                "purpose" : "bla bla"
+            }
         }
     ]
 }
