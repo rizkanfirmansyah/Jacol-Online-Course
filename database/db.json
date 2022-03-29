@@ -53,6 +53,27 @@
             "group": "learning",
             "icon": "pelajaran-9.png",
             "name": "B. Inggris"
+        },
+        {
+            "id": 10,
+            "group": "role",
+            "icon": "role-1.png",
+            "name": "Kesatria",
+            "active": true
+        },
+        {
+            "id": 11,
+            "group": "role",
+            "icon": "role-2.png",
+            "name": "Pengrajin",
+            "active": false
+        },
+        {
+            "id": 12,
+            "group": "role",
+            "icon": "role-3.png",
+            "name": "Penyihir",
+            "active": false
         }
     ]
 }
