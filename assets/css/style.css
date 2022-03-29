@@ -358,3 +358,35 @@ body {
     font-size: 18px;
     line-height: 24px;
 }
+
+.section-hero {
+    background: url('../images/bg-hero.png') 100% no-repeat;
+    background-size: cover;
+    color: #FAF8F9;
+}
+
+.section-hero .container{
+    background: url('../images/bg-jumbotron-hero.png') 100% no-repeat;
+    background-size: cover;
+}
+
+
+.section-hero .title {
+    font-family: 'PoppinsBold';
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.section-hero .paragraph {
+    font-family: 'NotoSans';
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.section-hero button {
+    border-radius: 15px;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-family: 'NotoSans';
+    font-weight: 500;
+}
