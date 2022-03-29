@@ -97,15 +97,59 @@ body {
     font-size: 16px;
 }
 
+.section-role .tag{
+    font-family: 'NotoSansLight';
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.24em;
+}
+
+.section-role .title{
+    font-family: 'PoppinsBold';
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.section-role #roles a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'PoppinsMedium';
+    color: #121212;
+}
+.section-role #roles a.active img {
+    position: relative;
+    margin-top: -35px;
+}
+
+.section-role #roles a.active span {
+    z-index: -1;
+    color: #FAF8F9;
+    margin-left: -50px;
+    padding: 17px 40px;
+    background-color: #121212;
+    border-radius: 10px;
+}
+
 .section-role .accordion-item {
     border: none;
     background: transparent !important;
 }
 
 .section-role .accordion-button {
-    color: #1B1A1A;
+    color: #121212;
     background-color: transparent;
     border: none !important;
+    font-size: 18px;
+    font-family: 'NotoSansSemiBold';
+}
+
+.section-role .accordion-body {
+    color: #121212;
+    background-color: transparent;
+    border: none !important;
+    font-size: 16px;
+    font-family: 'NotoSans';
+    opacity: 0.75;
 }
 
 .section-role .accordion-button:focus {
@@ -120,5 +164,40 @@ body {
 }
 
 .section-role .accordion-button:not(.collapsed)::after {
-	background-image: url("../icons/plus.png");
+    background-image: url("../icons/plus.png");
+}
+
+.section-role h1 {
+    font-size: 60px;
+    position: relative;
+    margin: 10px;
+}
+
+.section-role h1 b {
+    z-index: 1;
+
+    font-family: 'NotoSans';
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 131px;
+    text-shadow: 0.6px 0.6px 0 #6491EE, 0.6px -0.6px 0 #6491EE, -0.6px 0.6px 0 #6491EE, -0.6px -0.6px 0 #6491EE, 0.6px 0px 0 #6491EE, 0px 0.6px 0 #6491EE, -0.6px 0px 0 #6491EE, 0px -0.6px 0 #6491EE;
+    color: white;
+}
+
+.section-role h1 span {
+    position: absolute;
+    left: 400px;
+    color: #121212;
+    margin-top: 30px;
+    font-family: 'NotoSansBold';
+    font-size: 64px;
+}
+
+.section-profile {
+    background: url('../images/bg-about-1.png') 100%no-repeat;
+    background-size: contain;
+}
+
+.section-profile img{
+    width: 460px;
 }
