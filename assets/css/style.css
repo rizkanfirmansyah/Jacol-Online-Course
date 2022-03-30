@@ -816,3 +816,39 @@ footer img {
     background-color: #121212;
     border-radius: 10px;
 }
+
+.section-jumbotron-detail .row .tab-content #hadiah .card .card {
+    background-color: #1B1A1A;
+    border-radius: 10px;
+    border-bottom: #2D2C2C solid 1.5px;
+}
+
+.section-jumbotron-detail .row .tab-content #hadiah .card .card .card-body {
+    border-bottom: #2D2C2C solid 1.5px;
+}
+
+.section-jumbotron-detail .row .tab-content #hadiah .card .card .title {
+    color: #FFB93C;
+    font-family: 'PoppinsBold';
+    font-size: 48px;
+    opacity: 1;
+}
+
+.section-jumbotron-detail .row .tab-content #hadiah .card .card .tag {
+    color: #5A5959;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.section-jumbotron-detail .row .tab-content #hadiah .card .card .title span {
+    color: #FAF8F9;
+    font-family: 'PoppinsBold';
+    font-size: 32px;
+    border: none;
+}
+
+.section-jumbotron-detail .row .tab-content #hadiah .card .card p {
+    color: #5A5959;
+    font-family: 'Poppins';
+    font-size: 12px;
+}
