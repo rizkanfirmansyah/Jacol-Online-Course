@@ -808,7 +808,7 @@ footer img {
 }
 
 .section-jumbotron-detail .row .tab-content #hadiah .title span {
-    border-bottom: 2.5px solid #FFB93C ;
+    border-bottom: 2.5px solid #FFB93C;
     display: inline-block;
 }
 
@@ -834,6 +834,13 @@ footer img {
     opacity: 1;
 }
 
+.section-jumbotron-detail .row .tab-content #hadiah .card .card-position .title {
+    color: #FFB93C;
+    font-family: 'PoppinsBold';
+    font-size: 64px;
+    opacity: 1;
+}
+
 .section-jumbotron-detail .row .tab-content #hadiah .card .card .tag {
     color: #5A5959;
     font-family: 'Poppins';
@@ -853,9 +860,47 @@ footer img {
     font-size: 12px;
 }
 
+.section-jumbotron-detail .row .tab-content #hadiah .card .row {
+    position:relative;
+}
+
 .section-jumbotron-detail .row .tab-content #hadiah .card img.img {
     position: absolute;
     width: 350px;
     bottom: -30px;
     right: -100px;
+}
+
+.section-jumbotron-detail .row .tab-content #hadiah .card-2 {
+    opacity: 1 !important;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+
+.section-jumbotron-detail .row .tab-content #ulasan .row .card .title {
+    color: #121212;
+    font-family: 'PoppinsMedium';
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.section-jumbotron-detail .row .tab-content #ulasan .row .row .card .row span.stars i{
+    color: #FFB93C;
+}
+
+.section-jumbotron-detail .row .tab-content #ulasan .row .row .card .paragraph {
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #121212;
+    opacity: 0.5;
+    line-height: 24px;
+}
+
+.section-jumbotron-detail .row .tab-content #ulasan .row .row .card .name {
+    font-family: 'PoppinsMedium';
+    font-size: 16px;
+    color: #121212;
+    line-height: 24px;
 }
