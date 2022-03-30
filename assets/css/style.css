@@ -785,3 +785,34 @@ footer img {
     font-size: 18px;
     line-height: 22px;
 }
+
+.section-jumbotron-detail .row .tab-content #kuis .card .title {
+    color: #fff;
+    font-family: 'PoppinsSemiBold';
+    font-size: 20px;
+    line-height: 26px;
+    opacity: 1;
+}
+
+.section-jumbotron-detail .row .tab-content #kuis .card a {
+    color: #FAF8F9;
+    font-family: 'NotoSans';
+    font-size: 14px;
+}
+
+.section-jumbotron-detail .row .tab-content #kuis .card button {
+    color: #121212;
+    font-family: 'PoppinsSemiBold';
+    font-size: 15px;
+    background-color: #FFB93C;
+}
+
+.section-jumbotron-detail .row .tab-content #hadiah .title span {
+    border-bottom: 2.5px solid #FFB93C ;
+    display: inline-block;
+}
+
+.section-jumbotron-detail .row .tab-content #hadiah .card {
+    background-color: #121212;
+    border-radius: 10px;
+}
