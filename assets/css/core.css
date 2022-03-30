@@ -166,3 +166,26 @@ SUB ALTERNATIF COLOR : #6491AA
 .font-notosans-semibold{
     font-family: 'NotoSansSemiBold';
 }
+
+.dropdown {
+    position:static !important;
+}
+
+.dropdown-menu {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+    margin-top:0px !important;
+    width:100% !important;
+}
+
+.dropdown-menu .title{
+    font-size: 16px;
+    color: #121212;
+    opacity: 0.75;
+}
+
+.dropdown-menu .paragraph{
+    font-size: 11px;
+    font-family: 'NotoSans';
+    color: #121212;
+    opacity: 0.50;
+}
