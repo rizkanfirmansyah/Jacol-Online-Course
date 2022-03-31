@@ -151,62 +151,56 @@
         color: rgba(18, 18, 18, 0.75);
     }
     
-    .section-course .container .row .row .col-md-4 {
-        position: relative;
-    }
-    
-    .section-course .container .row .row .col-md-4 .card {
-        border: none;
-        border-radius: 10px;
-    }
-    
-    .section-course .container .col-md-4 .card .label {
-        position: absolute;
-        left: 20px;
-        top: 20px;
-        font-family: 'NotoSans';
-        font-size: 14px;
-        color: #FAF8F9;
-        background-color: #2447F9;
-        border-radius: 7px;
-        width: 81px;
-        text-align: center;
-    }
     
     .section-course .container .col-md-4 .card .title {
-        font-family: 'NotoSansMedium';
-        color: #121212;
-        font-size: 28px;
-        line-height: 38px;
+        font-size: 24px;
+        line-height: 34px;
     }
     
     .section-course .container .col-md-4 .card .category {
-        font-family: 'NotoSansMedium';
-        color: #121212;
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 16px;
+        line-height: 20px;
     }
     
     .section-course .container .col-md-4 .card .description {
-        font-family: 'NotoSans';
-        color: #121212;
-        opacity: 0.75;
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 15px;
+        line-height: 18px;
     }
     
     .section-course .container .col-md-4 .card .d-flex a {
-        color: #FAF8F9;
-        font-family: 'NotoSansSemiBold';
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 16px;
+        line-height: 20px;
     }
     
     .section-course .container .col-md-4 .card .d-grid a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .section-hero {
+        background: url('../images/bg-hero.png') 100% no-repeat;
+        background-size: cover;
         color: #FAF8F9;
-        font-family: 'NotoSansSemiBold';
-        font-size: 18px;
-        line-height: 24px;
+    }
+    
+    .section-hero .container {
+        background: url('../images/bg-jumbotron-hero.png') 100% 100% no-repeat;
+        background-size: cover;
+    }
+    
+    .section-hero .title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    
+    .section-hero .paragraph {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .section-hero button {
+        padding: 8px 20px;
+        font-size: 16px;
     }
 
 }
