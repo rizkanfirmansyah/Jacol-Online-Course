@@ -1,0 +1,206 @@
+@media (max-width: 576px) {
+
+    body,
+    html {
+        padding: 0;
+        margin: 0;
+    }
+
+    .section-highlight {
+        background: url('../images/bg-jumbotron.png') 100% no-repeat;
+        background-size: cover;
+    }
+
+    .section-highlight .title {
+        font-size: 28px;
+        font-family: 'PoppinsBold';
+        border-bottom: 5px solid #FFB93C;
+        display: inline-block;
+    }
+
+    .section-highlight .paragraph {
+        font-size: 14px;
+        font-family: 'NotoSans';
+        font-weight: 400;
+    }
+
+    .section-highlight button {
+        font-size: 14px;
+        border-radius: 10px;
+        padding: 10px 20px;
+        font-family: 'NotoSans';
+        font-weight: 500;
+    }
+
+    .section-highlight img {
+        display: none;
+    }
+
+    .section-learning .container {
+        margin-top: 30px;
+        background: url('../images/bg-learning.png') 100% 100% no-repeat;
+        background-size: cover;
+    }
+
+    .section-learning .tag {
+        font-size: 16px;
+    }
+
+    .section-learning .title {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .section-learning .paragraph {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .section-learning button {
+        border-radius: 15px;
+        padding: 8px 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .section-learning .card {
+        font-size: 14px;
+    }
+
+    .section-role .title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .section-role h1 {
+        font-size: 32px;
+        position: relative;
+        margin: 10px;
+    }
+
+    .section-role h1 b {
+        font-size: 56px;
+        line-height: 131px;
+        color: white;
+    }
+
+    .section-role h1 span {
+        left: 90px;
+        top: 10px;
+        font-size: 40px;
+    }
+
+    .section-profile-1 {
+        background: url('../images/bg-about-1.png') 100% no-repeat;
+        background-size: cover;
+    }
+
+    .section-profile-1 img {
+        width: 0;
+    }
+
+    .section-profile-1 .tag {
+        font-size: 16px;
+    }
+
+    .section-profile-1 .title {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .section-profile-1 .paragraph {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .section-profile-1 button {
+        border-radius: 15px;
+        padding: 8px 20px;
+        font-size: 16px;
+    }
+
+    .section-profile-2 {
+        background: none;
+        background-size: cover;
+    }
+
+    .section-profile-2 img {
+        width: 0;
+    }
+
+    .section-profile-2 .tag {
+        font-size: 16px;
+    }
+
+    .section-profile-2 .title {
+        font-size: 26px
+    }
+
+    .section-course .tag {
+        font-size: 16px;
+    }
+    
+    .section-course .title {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    
+    .section-course button {
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba(18, 18, 18, 0.75);
+    }
+    
+    
+    .section-course .container .col-md-4 .card .title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    
+    .section-course .container .col-md-4 .card .category {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .section-course .container .col-md-4 .card .description {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    
+    .section-course .container .col-md-4 .card .d-flex a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .section-course .container .col-md-4 .card .d-grid a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .section-hero {
+        background: url('../images/bg-hero.png') 100% no-repeat;
+        background-size: cover;
+        color: #FAF8F9;
+    }
+    
+    .section-hero .container {
+        background: url('../images/bg-jumbotron-hero.png') 100% 100% no-repeat;
+        background-size: cover;
+    }
+    
+    .section-hero .title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    
+    .section-hero .paragraph {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .section-hero button {
+        padding: 8px 20px;
+        font-size: 16px;
+    }
+
+}
