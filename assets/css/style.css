@@ -1125,10 +1125,10 @@ footer img {
     line-height: 22px;
 }
 
-/* .section-about-us #about-us-2 {
+.section-about-us #about-us-2 {
     background: url('../images/bg-about-us-2.png') 100% 100% no-repeat;
     background-size: contain;
-} */
+}
 .section-about-us #about-us-2 .title {
     font-family: 'PoppinsSemiBold';
     font-size: 20px;
