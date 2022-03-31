@@ -1,0 +1,267 @@
+
+
+  /* (320x480) iPhone (Original, 3G, 3GS) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* insert styles here */
+}
+ 
+/* (320x480) Smartphone, Portrait */
+@media only screen and (device-width: 320px) and (orientation: portrait) {
+    /* insert styles here */
+}
+ 
+/* (320x480) Smartphone, Landscape */
+@media only screen and (device-width: 480px) and (orientation: landscape) {
+    /* insert styles here */
+}
+ 
+/* (480x800) Android */
+@media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+    /* insert styles here */
+}
+ 
+/* (640x960) iPhone 4 & 4S */
+@media only screen and (min-device-width: 640px) and (max-device-width: 960px) {
+    /* insert styles here */
+}
+ 
+/* (720x1280) Galaxy Nexus, WXGA */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    /* insert styles here */
+}
+ 
+/* (720x1280) Galaxy Nexus, Landscape */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) and (orientation: landscape) {
+    /* insert styles here */
+}
+ 
+/* (1024x768) iPad 1 & 2, XGA */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* insert styles here */
+}
+ 
+/* (768x1024) iPad 1 & 2, Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* insert styles here */
+}
+ 
+/* (1024x768) iPad 1 & 2, Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* insert styles here */
+}
+ 
+/* (2048x1536) iPad 3 */
+@media only screen and (min-device-width: 1536px) and (max-device-width: 2048px) {
+    /* insert styles here */
+}
+ 
+/* (1280x720) Galaxy Note 2, WXGA */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    /* insert styles here */
+}
+ 
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {
+    /* insert styles here */
+}
+ 
+/* (1280x1024) SXGA Display */
+@media  screen and (max-width: 1280px) {
+    /* insert styles here */
+}
+ 
+/* (1440x900) WXGA+ Display */
+@media  screen and (max-width: 1440px) {
+    /* insert styles here */
+}
+ 
+/* (1680x1050) WSXGA+ Display */
+@media  screen and (max-width: 1680px) {
+    /* insert styles here */
+}
+ 
+/* (1920x1080) Full HD Display */
+@media  screen and (min-width: 1920px) {
+    /* insert styles here */
+    .welcome h2 {
+        font-size: 56px;
+    }
+
+    .welcome p {
+        font-size: 26px;
+    }
+
+    .form-check a {
+        font-size: 20px !important;
+    }
+
+    .welcome {
+        margin-top: 20%;
+    }
+
+    .welcome input {
+        height: 60px;
+    }
+
+    .welcome button {
+        height: 60px;
+    }
+
+    .another-login {
+        margin-top: 30px;
+    }
+
+    .another-login img{
+        width: 66px;
+        height: 60px;
+    }
+
+
+    .another-login button {
+        width: 90px;
+        height: 85px;
+    }
+
+    .img-form-quiz {
+        width: 1027px;
+        margin-top: 10%;
+    }
+
+    .pg-btn {
+        background-image: url(../images/choice-button-quiz.png);
+        width: 266px;
+        height: 104px;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        color: white;
+        font-family: "Noto sans";
+        font-size: 25px;
+        text-align: center;
+        background-size: contain;
+        font-size: 32px;
+    }
+
+    .quiz h3 {
+        font-size: 46px;
+        color: white;
+        font-family: "Noto sans";
+        position: absolute;
+        top: 30%;
+        left: 40%;
+    }
+
+    .section-header a {
+        width: 100px;
+        height: 100px;
+    }
+
+    .nav-music img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .nav-q-bar {
+        width: 432px;
+        height: 65px;
+    }
+
+    .nav-q-bar img {
+        width: 432px;
+        height: 65px;
+    }
+
+    .form-start-quiz {
+        background-image: url(../images/form-start-quiz.png);
+        height: 900px;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        padding-top: 11%;
+        background-size: cover;
+        margin-top: 179px;
+    }
+
+    .form-start-quiz h1{
+        font-size: 60px;
+    }
+
+    .form-start-quiz h4 {
+        font-size: 37px;
+    }
+
+    .status-quiz img {
+        width: 50px;
+    }
+
+    .status-quiz p {
+        font-size: 24px;
+    }
+
+    .retry-btn {
+        background-image: url(../images/retry-quiz-button.png);
+        width: 90px;
+        height: 80px;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        text-align: center;
+        background-size: contain;
+    }
+
+    .start-btn {
+        background-image: url(../images/start-quiz-button.png);
+        width: 303px;
+        height: 84px;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        color: white;
+        font-family: "Noto sans";
+        font-size: 25px;
+        text-align: center;
+        background-size: contain;
+    }
+
+    .star img {
+        width: 200px;
+    }
+
+    .jawaban-benar {
+        font-size: 50px;
+    }
+
+    .total-benar {
+        font-size: 150px;
+    }
+
+    .flex-item h2 {
+        font-size: 51px;
+    margin-top: 60px;
+    margin-right: 75px;
+    }
+
+    .btn-start-retry {
+        margin-top: 103px !important;
+    }
+
+    .mage-belajar {
+        margin-left: 200px !important;
+    }
+
+    .paragraph  {
+        font-size: 20px !important;
+    }
+
+    .paragraph-main {
+        font-size: 20px !important;
+    }
+
+    .about-us-2 h2 {
+        font-size: 30px !important;
+    }
+}
+ 
+/* (1600x900) HD+ Display */
+@media  screen and (max-width: 1600px) {
+    /* insert styles here */
+}
