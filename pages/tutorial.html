@@ -16,8 +16,8 @@
 
     <title>JACOL - Course Kids & Adventure</title>
 
-    <link rel="stylesheet" href="assets/css/core.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/core.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 
 </head>
 
@@ -42,10 +42,10 @@
                             <a class="nav-link" aria-current="page" href="../index.html">Beranda</a>
                         </li>
                         <li class="nav-item mx-2">
-                            <a class="nav-link" href="/pages/tutorial.html">Tutorial</a>
+                            <a class="nav-link active" href="tutorial.html">Tutorial</a>
                         </li>
                         <li class="nav-item mx-2 dropdown">
-                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Kursus
                             </a>
@@ -264,274 +264,86 @@
 
     <main class="content">
 
-        <div class="section-highlight" id="section-highlight">
-            <div class="container">
-                <div class="row mt-5">
-                    <div class="col-md-5 mt-5">
-                        <h1 class="title">
-                            Mari Belajar & Berpetualang
-                        </h1>
-                        <p class="paragraph my-3">Menghadirkan pembelajaran yang menyenangkan bagi anak, yang dikemas
-                            dengan latar belakang
-                            game petualang.</p>
-                        <button class="btn bgr-secondary color-light mt-3">Mulai Belajar</button>
-                    </div>
-                    <div class="col-md-7">
-                        <img src="assets/images/jumbotron.png" alt="Gambar Petualang" class="img-fluid">
-                    </div>
+        <div class="section-tutorial pb-5" id="section-tutorial">
+            <div class="container py-5">
+                <div class="row text-center justify-content-center my-4">
+                    <h1 class="title">Tutorial</h1>
+                    <p class="paragraph ">Tutorial cara menggunakan website JACOL</p>
                 </div>
-            </div>
-        </div>
+                <iframe style="width: 100%;border-radius: 15px;" height="350"
+                src="https://www.youtube.com/embed/jzMvufWxPyA?controls=0">
+                </iframe>
 
-        <div class="section-learning" id="section-learning">
-            <div class="container bgr-dark p-5 color-light">
-                <div class="row p-3">
-                    <div class="col-md-5">
-                        <h2 class="tag color-light my-5">PELAJARAN</h2>
-                        <h2 class="title">PEMBELAJARAN MENARIK</h2>
-                        <p class="paragraph my-3">Menghadirkan mata pelajaran dasar
-                            yang penting bagi anak. Dikemas dengan
-                            menarik sehingga anak tidak akan bosan</p>
-                        <button class="btn bgr-primary mt-4">Selengkapnya</button>
-                    </div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-6">
-                        <div class="row" id="learnings">
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="section-role my-5" id="section-role">
-            <div class="container">
-                <div class="row text-center">
-                    <h4 class="tag text-uppercase">peran</h4>
-                    <h4 class="title text-uppercase">Pilih Peranmu Sekarang</h4>
-                    <div class="row" id="roles">
-                        <div class="col-md-4 mt-2">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="/assets/icons/main-role.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="col-md-4 mt-5 ">
-                            <div class="accordion" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#roleAbout" aria-expanded="true"
-                                            aria-controls="roleAbout">
-                                            <img src="/assets/icons/list.png" alt="" class="img-fluid me-2">
-                                            Tentang Peran
-                                        </button>
-                                    </h2>
-                                    <div id="roleAbout" class="accordion-collapse collapse "
-                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body text-start">
-                                            Kesatria pemberani yang mengayunkan pedangnya untuk melindungi yang lemah
-                                            dan melawan kejahatan.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#roleAdvantage"
-                                            aria-expanded="false" aria-controls="roleAdvantage">
-                                            <img src="/assets/icons/list.png" alt="" class="img-fluid me-2">
-                                            Kelebihan Peran
-                                        </button>
-                                    </h2>
-                                    <div id="roleAdvantage" class="accordion-collapse collapse"
-                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body text-start">
-                                            Kelebihan Peran
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#rolePurpose"
-                                            aria-expanded="false" aria-controls="rolePurpose">
-                                            <img src="/assets/icons/list.png" alt="" class="img-fluid me-2">
-                                            Tujuan Peran
-                                        </button>
-                                    </h2>
-                                    <div id="rolePurpose" class="accordion-collapse collapse"
-                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body text-start">
-                                            Tujuan Peran
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <h1> <span class="text-uppercase">KESATRIA</span> <b class="text-uppercase">KESATRIA</b></h1>
-                </div>
-            </div>
-        </div>
-
-        <div id="section-profile">
-            <div class="section-profile-1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img src="/assets/images/about-1.png" alt="Gambar about 1" class="img-fluid">
-                        </div>
-                        <div class="col-md-6 mt-5 pt-5">
-                            <h3 class="tag text-uppercase mt-5">PENGETAHUAN</h3>
-                            <h3 class="title my-3">Pilih Kelas & Pelajaran yang Kamu Sukai</h3>
-                            <p class="paragraph">Pelajaran & kelas yang disukai anak akan membuat perkembangan yang
-                                sangat pesat bagi anak.</p>
-                            <button class="btn bgr-primary mt-5">Selengkapnya</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section-profile-2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-7 mt-5 pt-5">
-                            <h3 class="tag text-uppercase mt-5">MANFAAT</h3>
-                            <h3 class="title my-3">Apa yang akan kamu dapatkan ?</h3>
-                            <div class="row">
-                                <div class="col-md-4 my-2">
-                                    <div class="card shadow-sm p-2">
-                                        <img src="/assets/icons/icon-1.png" class="card-img-top m-2 img-fluid" alt="coba">
-                                        <div class="card-body">
-                                          <h5 class="title">Lencana</h5>
-                                          <p class="description">Pilih yang kamu pelajari dan dapatkan lencana</p>
-                                        </div>
-                                      </div>
-                                </div>
-                                <div class="col-md-4 my-2">
-                                    <div class="card shadow-sm p-2">
-                                        <img src="/assets/icons/icon-2.png" class="card-img-top m-2 img-fluid" alt="coba">
-                                        <div class="card-body">
-                                          <h5 class="title">Lencana</h5>
-                                          <p class="description">Pilih yang kamu pelajari dan dapatkan lencana</p>
-                                        </div>
-                                      </div>
-                                </div>
-                                <div class="col-md-4 my-2">
-                                    <div class="card shadow-sm p-2">
-                                        <img src="/assets/icons/icon-3.png" class="card-img-top m-2 img-fluid" alt="coba">
-                                        <div class="card-body">
-                                          <h5 class="title">Lencana</h5>
-                                          <p class="description">Pilih yang kamu pelajari dan dapatkan lencana</p>
-                                        </div>
-                                      </div>
-                                </div>
-                                <div class="col-md-4 my-2">
-                                    <div class="card shadow-sm p-2">
-                                        <img src="/assets/icons/icon-4.png" class="card-img-top m-2 img-fluid" alt="coba">
-                                        <div class="card-body">
-                                          <h5 class="title">Lencana</h5>
-                                          <p class="description">Pilih yang kamu pelajari dan dapatkan lencana</p>
-                                        </div>
-                                      </div>
-                                </div>
-                                <div class="col-md-4 my-2">
-                                    <div class="card shadow-sm p-2">
-                                        <img src="/assets/icons/icon-5.png" class="card-img-top m-2 img-fluid" alt="coba">
-                                        <div class="card-body">
-                                          <h5 class="title">Lencana</h5>
-                                          <p class="description">Pilih yang kamu pelajari dan dapatkan lencana</p>
-                                        </div>
-                                      </div>
-                                </div>
-                                <div class="col-md-4 my-2">
-                                    <div class="card shadow-sm p-2">
-                                        <img src="/assets/icons/icon-6.png" class="card-img-top m-2 img-fluid" alt="coba">
-                                        <div class="card-body">
-                                          <h5 class="title">Lencana</h5>
-                                          <p class="description">Pilih yang kamu pelajari dan dapatkan lencana</p>
-                                        </div>
-                                      </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="/assets/images/about-2.png" alt="Gambar about 2" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="section-course my-5" id="section-course">
-            <div class="container">
                 <div class="row">
-                    <h4 class="tag text-uppercase">Kursus</h4>
-                    <div class="d-flex">
-                        <h4 class="title">Kursus Yang Populer</h4>
-                        <button class="btn ms-auto">Semua Kursus</button>
-                    </div>
-                    <div class="row mt-4" id="courses">
-                        <div class="col-md-4" id="course">
-                            <div class="card shadow">
-                                <img src="/assets/images/course-1.png" class="card-img-top" alt="Ini gambar course 1">
-                                <label for="label" class="label">Free</label>
-                                <div class="card-body">
-                                    <h5 class="title">Menggambar</h5>
-                                    <h5 class="category"><img src="/assets/icons/junior.png" alt=""> Junior</h5>
-                                    <p class="description mt-3 mb-5">Belajar membuat gambar 2d sampai mewarnai gambar
-                                        tersebut menjadi lebih indah dan lebih baik</p>
-                                    <div class="d-flex text-center justify-content-center">
-                                        <a href="#" class="btn bgr-primary me-2 px-3 py-2"><i class="fas fa-star"></i> 5</a>
-                                        <a href="#" class="btn bgr-primary me-2 px-4 py-2"><i class="fas fa-user"></i> 20</a>
-                                        <a href="#" class="btn bgr-primary px-4 py-2">Umur 6+</a>
-                                    </div>
-                                    <div class="d-grid gap-2 mt-3">
-                                        <a class="btn bgr-alternatif">Bergabung </a>
-                                    </div>
-                                </div>
+                    <div class="col-md-8">
+                        <h2 class="title-row mt-4">
+                            Deskripsi Kursus
+                        </h2>
+                        <p class="paragraph-row">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Obcaecati vel officia dignissimos quis unde corporis tenetur, molestiae incidunt
+                            ad suscipit inventore nihil asperiores? Illum consectetur voluptatem debitis,
+                            possimus exercitationem quos nulla, beatae voluptatum consequuntur obcaecati eum
+                            odio officia ipsam similique ex nesciunt voluptates expedita. Saepe
+                            necessitatibus suscipit, eius deserunt ex molestias aperiam perspiciatis
+                            dignissimos doloribus exercitationem accusantium in. Dolorem, error? Nulla rerum
+                            incidunt laborum earum cum magni voluptates officia enim quae, voluptatem optio
+                            inventore ex, minima assumenda dolores asperiores ut nesciunt reprehenderit ea
+                            recusandae excepturi illo soluta autem? Reprehenderit unde sapiente rem culpa
+                            iste impedit officiis praesentium, eos voluptatibus blanditiis!</p>
+                        <h2 class="title-row mt-4">
+                            Target Kursus
+                        </h2>
+                        <div class="row">
+                            <div class="col-md-6 mt-3">
+                                <span>
+                                    <i class="fas fa-circle-check"></i> Lorem ipsum dolor sit.
+                                </span>
+                            </div>
+                            <div class="col-md-6 mt-3">
+                                <span>
+                                    <i class="fas fa-circle-check"></i> Lorem ipsum dolor sit.
+                                </span>
+                            </div>
+                            <div class="col-md-6 mt-3">
+                                <span>
+                                    <i class="fas fa-circle-check"></i> Lorem ipsum dolor sit.
+                                </span>
+                            </div>
+                            <div class="col-md-6 mt-3">
+                                <span>
+                                    <i class="fas fa-circle-check"></i> Lorem ipsum dolor sit.
+                                </span>
                             </div>
                         </div>
-                        <div class="col-md-4" id="course">
-                            <div class="card shadow">
-                                <img src="/assets/images/course-2.png" class="card-img-top" alt="Ini gambar course 1">
-                                <label for="label" class="label">Free</label>
-                                <div class="card-body">
-                                    <h5 class="title">Matematika</h5>
-                                    <h5 class="category"><img src="/assets/icons/senior.png" alt=""> Senior</h5>
-                                    <p class="description mt-3 mb-5">Melatih logika dan perhitungan dalam dunia matematika. Belajar dari pemula sampai mahir</p>
-                                    <div class="d-flex text-center justify-content-center">
-                                        <a href="#" class="btn bgr-primary me-2 px-3 py-2"><i class="fas fa-star"></i> 5</a>
-                                        <a href="#" class="btn bgr-primary me-2 px-4 py-2"><i class="fas fa-user"></i> 20</a>
-                                        <a href="#" class="btn bgr-primary px-4 py-2">Umur 12+</a>
-                                    </div>
-                                    <div class="d-grid gap-2 mt-3">
-                                        <a class="btn bgr-alternatif">Bergabung </a>
-                                    </div>
-                                </div>
+                        <h2 class="title-row mt-4">
+                            Ditujukan Untuk
+                        </h2>
+                        <div class="row">
+                            <div class="col-md-6 mt-3">
+                                <span>
+                                    <i class="fas fa-circle-check"></i> Lorem ipsum dolor sit.
+                                </span>
                             </div>
-                        </div>
-                        <div class="col-md-4" id="course">
-                            <div class="card shadow">
-                                <img src="/assets/images/course-3.png" class="card-img-top" alt="Ini gambar course 1">
-                                <label for="label" class="label">Free</label>
-                                <div class="card-body">
-                                    <h5 class="title">Kesenian</h5>
-                                    <h5 class="category"><img src="/assets/icons/junior.png" alt=""> Junior</h5>
-                                    <p class="description mt-3 mb-5">Melatih ilmu kesenian pada tingkat junior dengan mengajarkan dasar yang sangat baik</p>
-                                    <div class="d-flex text-center justify-content-center">
-                                        <a href="#" class="btn bgr-primary me-2 px-3 py-2"><i class="fas fa-star"></i> 5</a>
-                                        <a href="#" class="btn bgr-primary me-2 px-4 py-2"><i class="fas fa-user"></i> 20</a>
-                                        <a href="#" class="btn bgr-primary px-4 py-2">Umur 6+</a>
-                                    </div>
-                                    <div class="d-grid gap-2 mt-3">
-                                        <a class="btn bgr-alternatif">Bergabung </a>
-                                    </div>
-                                </div>
+                            <div class="col-md-6 mt-3">
+                                <span>
+                                    <i class="fas fa-circle-check"></i> Lorem ipsum dolor sit.
+                                </span>
+                            </div>
+                            <div class="col-md-6 mt-3">
+                                <span>
+                                    <i class="fas fa-circle-check"></i> Lorem ipsum dolor sit.
+                                </span>
+                            </div>
+                            <div class="col-md-6 mt-3">
+                                <span>
+                                    <i class="fas fa-circle-check"></i> Lorem ipsum dolor sit.
+                                </span>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
 
@@ -541,7 +353,8 @@
                     <div class="col-md-6"></div>
                     <div class="col-md-6">
                         <h1 class="title">Belajar akan terasa senang dengan ilustrasi</h1>
-                        <p class="paragraph">Memulai pembelajaran seru dibantu bimbingan orang tua terhadap tumbuh kembang anak</p>
+                        <p class="paragraph">Memulai pembelajaran seru dibantu bimbingan orang tua terhadap tumbuh
+                            kembang anak</p>
                         <button class="btn bgr-primary mt-5">Daftar Sekarang</button>
                     </div>
                 </div>
@@ -551,12 +364,12 @@
         <div class="section-sponsor" id="section-sponsor">
             <div class="container">
                 <div class="row justify-content-center py-5">
-                    <img src="/assets/images/sponsor-1.png" alt="" class="img-fluid mx-2">
-                    <img src="/assets/images/sponsor-2.png" alt="" class="img-fluid mx-2">
-                    <img src="/assets/images/sponsor-3.png" alt="" class="img-fluid mx-2">
-                    <img src="/assets/images/sponsor-4.png" alt="" class="img-fluid mx-2">
-                    <img src="/assets/images/sponsor-5.png" alt="" class="img-fluid mx-2">
-                    <img src="/assets/images/sponsor-6.png" alt="" class="img-fluid mx-2">
+                    <img src="/../assets/images/sponsor-1.png" alt="" class="img-fluid mx-2">
+                    <img src="/../assets/images/sponsor-2.png" alt="" class="img-fluid mx-2">
+                    <img src="/../assets/images/sponsor-3.png" alt="" class="img-fluid mx-2">
+                    <img src="/../assets/images/sponsor-4.png" alt="" class="img-fluid mx-2">
+                    <img src="/../assets/images/sponsor-5.png" alt="" class="img-fluid mx-2">
+                    <img src="/../assets/images/sponsor-6.png" alt="" class="img-fluid mx-2">
                 </div>
             </div>
         </div>
@@ -569,7 +382,7 @@
             <div class="row py-5">
                 <div class="col-md-5">
                     <h1>
-                        <img src="/assets/icons/logo-white.png" alt=""> JACOL</h1>
+                        <img src="/../assets/icons/logo-white.png" alt=""> JACOL</h1>
                     <p>Website pilihan terbaik untuk membantu anak dalam proses belajar</p>
                 </div>
                 <div class="col-md-2">
@@ -602,7 +415,7 @@
                 <h3 class="copyright">Copyright © 2022 JACOL ALL RIGHT RESERVED</h3>
             </div>
         </div>
-        <img src="/assets/images/footer.png" alt="">
+        <img src="/../assets/images/footer.png" alt="">
 
     </footer>
 
@@ -612,9 +425,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
-    
-    <script src="/assets/js/function.js"></script>
-    <script src="/assets/js/script.js"></script>
+
+    <script src="/../assets/js/function.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

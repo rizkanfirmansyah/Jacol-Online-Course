@@ -59,7 +59,7 @@ body {
 
 .section-learning .container {
     border-radius: 20px;
-    margin-top: -120px;
+    margin-top: -130px;
     background: url('../images/bg-learning.png') 100% no-repeat;
     background-size: cover;
 }
@@ -1002,4 +1002,82 @@ footer img {
     line-height: 24px;
     font-size: 18px;
     background-color: #2447F9;
+}
+
+.section-tutorial .title {
+    font-family: 'PoppinsBold';
+    font-size: 32px;
+    line-height: 48px;
+    color: #121212;
+}
+
+.section-tutorial .paragraph {
+    font-family: 'NotoSans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #121212;
+    opacity: 0.5;
+}
+
+.section-tutorial button {
+    background: rgba(55, 101, 196, 0.25);
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2447F9;
+    width: auto;
+}
+
+.section-tutorial .row .title-row {
+    font-family: 'NotoSansSemiBold';
+    color: #121212;
+    opacity: 0.75;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.section-tutorial .row .subtitle-row {
+    font-family: 'NotoSansMedium';
+    color: #121212;
+    opacity: 0.75;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.section-tutorial .row button {
+    font-family: 'NotoSansMedium';
+    color: #FAF8F9;
+    line-height: 24px;
+    font-size: 18px;
+    background-color: #2447F9;
+}
+
+.section-tutorial .row .paragraph-row {
+    font-family: 'NotoSans';
+    color: #121212;
+    opacity: 0.75;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 166.2%;
+}
+
+.section-tutorial .row .row {
+    font-family: 'NotoSans';
+    color: #121212;
+    opacity: 0.75;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.section-tutorial .row .row i {
+    color: #2447F9;
+    opacity: 0.75;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
 }
