@@ -1,97 +1,97 @@
 {
-    "data": [
-        {
-            "id": 1,
-            "group": "learning",
-            "icon": "pelajaran-1.png",
-            "name": "Matematika"
-        },
-        {
-            "id": 2,
-            "group": "learning",
-            "icon": "pelajaran-2.png",
-            "name": "IPA"
-        },
-        {
-            "id": 3,
-            "group": "learning",
-            "icon": "pelajaran-3.png",
-            "name": "IPS"
-        },
-        {
-            "id": 4,
-            "group": "learning",
-            "icon": "pelajaran-4.png",
-            "name": "Agama"
-        },
-        {
-            "id": 5,
-            "group": "learning",
-            "icon": "pelajaran-5.png",
-            "name": "PKN"
-        },
-        {
-            "id": 6,
-            "group": "learning",
-            "icon": "pelajaran-6.png",
-            "name": "Seni Budaya"
-        },
-        {
-            "id": 7,
-            "group": "learning",
-            "icon": "pelajaran-7.png",
-            "name": "Olahraga"
-        },
-        {
-            "id": 8,
-            "group": "learning",
-            "icon": "pelajaran-8.png",
-            "name": "B. Indonesia"
-        },
-        {
-            "id": 9,
-            "group": "learning",
-            "icon": "pelajaran-9.png",
-            "name": "B. Inggris"
-        },
-        {
-            "id": 10,
-            "group": "role",
-            "icon": "role-1.png",
-            "img": "main-role.png",
-            "name": "Kesatria",
-            "active": true,
-            "feature": {
-                "about": "Kesatria pemberani yang mengayunkan pedangnya untuk melindungi yang lemah dan melawan kejahatan.",
-                "advantage" : "bla bla bla",
-                "purpose" : "bla bla"
-            }
-        },
-        {
-            "id": 11,
-            "group": "role",
-            "icon": "role-2.png",
-            "img": "main-role-2.png",
-            "name": "Pengrajin",
-            "active": false,
-            "feature": {
-                "about": "Pengrajin merupakan orang yang ahli dalam membuat sesuatu yang menakjubkan seperti senjata dan alat lainnya",
-                "advantage" : "bla bla bla",
-                "purpose" : "bla bla"
-            }
-        },
-        {
-            "id": 12,
-            "group": "role",
-            "icon": "role-3.png",
-            "img": "main-role-3.png",
-            "name": "Penyihir",
-            "active": false,
-            "feature": {
-                "about": "Penyihir bertugas untuk membentuk ramuan obat yang mampu memberikan support kepada kesatria dan pertahanan yang kokoh",
-                "advantage" : "bla bla bla",
-                "purpose" : "bla bla"
-            }
-        }
-    ]
+  "data": [
+    {
+      "id": 1,
+      "group": "learning",
+      "icon": "pelajaran-1.png",
+      "name": "Matematika"
+    },
+    {
+      "id": 2,
+      "group": "learning",
+      "icon": "pelajaran-2.png",
+      "name": "IPA"
+    },
+    {
+      "id": 3,
+      "group": "learning",
+      "icon": "pelajaran-3.png",
+      "name": "IPS"
+    },
+    {
+      "id": 4,
+      "group": "learning",
+      "icon": "pelajaran-4.png",
+      "name": "Agama"
+    },
+    {
+      "id": 5,
+      "group": "learning",
+      "icon": "pelajaran-5.png",
+      "name": "PKN"
+    },
+    {
+      "id": 6,
+      "group": "learning",
+      "icon": "pelajaran-6.png",
+      "name": "Seni Budaya"
+    },
+    {
+      "id": 7,
+      "group": "learning",
+      "icon": "pelajaran-7.png",
+      "name": "Olahraga"
+    },
+    {
+      "id": 8,
+      "group": "learning",
+      "icon": "pelajaran-8.png",
+      "name": "B. Indonesia"
+    },
+    {
+      "id": 9,
+      "group": "learning",
+      "icon": "pelajaran-9.png",
+      "name": "B. Inggris"
+    },
+    {
+      "id": 10,
+      "group": "role",
+      "icon": "role-1.png",
+      "img": "main-role.png",
+      "name": "Kesatria",
+      "active": true,
+      "feature": {
+        "about": "Kesatria pemberani yang mengayunkan pedangnya untuk melindungi yang lemah dan melawan kejahatan.",
+        "advantage": "Kamu akan mendapatkan tambahan kekuatan dan keberanian yang luar biasa",
+        "purpose": "Melindungi yang lemah, dan Menumpas yang jahat"
+      }
+    },
+    {
+      "id": 11,
+      "group": "role",
+      "icon": "role-2.png",
+      "img": "main-role-2.png",
+      "name": "Pengrajin",
+      "active": false,
+      "feature": {
+        "about": "Pengrajin merupakan orang yang ahli dalam membuat sesuatu yang menakjubkan seperti senjata dan alat lainnya",
+        "advantage": "Kamu akan mendapatkan tambahan imajinasi dan fokus yang luar biasa",
+        "purpose": "Membuat sesuatu yang tidak mungkin menjadi mungkin"
+      }
+    },
+    {
+      "id": 12,
+      "group": "role",
+      "icon": "role-3.png",
+      "img": "main-role-3.png",
+      "name": "Penyihir",
+      "active": false,
+      "feature": {
+        "about": "Penyihir bertugas untuk membentuk ramuan obat yang mampu memberikan support kepada kesatria dan pertahanan yang kokoh",
+        "advantage": "Kamu akan mendapatkan tambahan kecerdasan dan empati yang luar biasa",
+        "purpose": "Mempelajari segala sesuatu yang ada didunia"
+      }
+    }
+  ]
 }
