@@ -306,7 +306,7 @@ body {
     line-height: 48px;
 }
 
-.section-course button {
+.section-course a.all {
     background: rgba(18, 18, 18, 0.1);
     border-radius: 10px;
     font-family: 'Noto Sans';
