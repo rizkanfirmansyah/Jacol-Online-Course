@@ -58,6 +58,7 @@
             "id": 10,
             "group": "role",
             "icon": "role-1.png",
+            "img": "main-role.png",
             "name": "Kesatria",
             "active": true,
             "feature": {
@@ -70,6 +71,7 @@
             "id": 11,
             "group": "role",
             "icon": "role-2.png",
+            "img": "main-role-2.png",
             "name": "Pengrajin",
             "active": false,
             "feature": {
@@ -82,6 +84,7 @@
             "id": 12,
             "group": "role",
             "icon": "role-3.png",
+            "img": "main-role-3.png",
             "name": "Penyihir",
             "active": false,
             "feature": {

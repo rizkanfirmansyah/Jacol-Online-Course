@@ -20,6 +20,7 @@ fetchData("role").then((response) => {
     let rolePurpose = document.querySelector("#roles #rolePurpose div");
     let title = document.querySelector("#section-role h1 span");
     let subtitle = document.querySelector("#section-role h1 b");
+    let imgRole = document.querySelector("#section-role #main-role");
     let html = '';
     response.map((res) => {
         html += `
@@ -38,6 +39,7 @@ fetchData("role").then((response) => {
     title.textContent = data[0].name
     subtitle.textContent = data[0].name
     role.innerHTML = html
+    imgRole.innerHTML = `<img src="/assets/icons/${data[0].img}" alt="" class="img-fluid">`
 });
 
 function changeRole(id, elem){
@@ -47,6 +49,7 @@ function changeRole(id, elem){
         let rolePurpose = document.querySelector("#roles #rolePurpose div");
         let title = document.querySelector("#section-role h1 span");
         let subtitle = document.querySelector("#section-role h1 b");
+        let imgRole = document.querySelector("#section-role #main-role");
     
         let data = response.filter((res) => res.id == id) 
         
@@ -55,6 +58,7 @@ function changeRole(id, elem){
         rolePurpose.textContent = data[0].feature.purpose
         title.textContent = data[0].name
         subtitle.textContent = data[0].name
+        imgRole.innerHTML = `<img src="/assets/icons/${data[0].img}" alt="" class="img-fluid">`
     });
 
     var a = document.querySelectorAll("#roles .col-md-4 a");
