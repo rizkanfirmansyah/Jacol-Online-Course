@@ -20,7 +20,7 @@ body {
     font-family: 'PoppinsMedium';
 }
 
-.section-header button.bgr-dark {
+.section-header a.bgr-dark {
     border-radius: 15px;
 }
 
