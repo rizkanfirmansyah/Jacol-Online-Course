@@ -1,0 +1,269 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #FAF8F9;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.bg-login img {
+    height: 100vh;
+    width: 100%;
+    padding: 0%;
+    object-fit: cover;
+}
+
+.bg-login {
+    padding: 0%;
+}
+
+.form-login {
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/bg-form.png);
+    background-size: 100% 100%;
+    padding: unset;
+}
+
+.form-isi {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.form-login h2 {
+    font-family: "Poppins";
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.form-login p {
+    font-family: "Noto sans";
+    color: #121212;
+    font-size: 20px;
+    opacity: calc(70%);
+}
+
+.form-isi .form-check a {
+    text-decoration: none;
+    color: #121212;
+    font-family: "Poppins";
+    font-size: 12px;
+}
+
+.form-isi a {
+    text-decoration: none;
+}
+
+.form-isi button {
+    font-family: "Poppins";
+    border-radius: 10px;
+}
+
+.form-control {
+    border-radius: 10px;
+    background-color: #E9EFF6;
+}
+
+.form-content span{
+    background-color: #E9EFF6 !important;
+}
+
+.form-content p {
+    font-family: "Poppins" !important;
+    font-size: 13px;
+    opacity: calc(70%);
+    border-bottom: 2px solid #D2D7DC; 
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+}
+
+.line-kuning {
+    border-bottom: 3px solid #FFB93C; 
+    line-height: 0.4em;
+    display: inline-table;
+}
+
+.form-content p span {
+    background:#fff; 
+    padding:0 0px; 
+    background-color: #fff !important;
+}
+
+.another-login {
+    display: flex;
+    justify-content: center;
+}
+.another-login button {
+    border-color:#D2D7DC;
+}
+
+.another-login img {
+    width: 40px;
+    height: 40px;
+}
+
+.body-quiz {
+    background-image: url(../images/bg-quiz.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+}
+
+.quiz {
+    display: flex;
+    justify-content: center;
+}
+
+.quiz h3 {
+    color: white;
+    font-family: "Noto sans";
+    position: absolute;
+    top: 30%;
+    left: 41%;
+}
+
+.pg {
+    margin-top: -30%;
+    margin-right: 2%;
+}
+
+.pg-btn {
+    background-image: url(../images/choice-button-quiz.png);
+    width: 196px;
+    height: 70px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    color: white;
+    font-family: "Noto sans";
+    font-size: 25px;
+    text-align: center;
+}
+
+.start-btn {
+    background-image: url(../images/start-quiz-button.png);
+    width: 245px;
+    height: 63px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    color: white;
+    font-family: "Noto sans";
+    font-size: 25px;
+    text-align: center;
+}
+
+.retry-btn {
+    background-image: url(../images/retry-quiz-button.png);
+    width: 62px;
+    height: 62px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    text-align: center;
+}
+
+.pg-btn:active  {
+  transform: translateY(4px);
+}
+
+.nav-music:active {
+    transform: translateY(4px);
+}
+
+.retry-btn:active,.start-btn:active {
+    transform: translateY(4px);
+}
+
+.img-form-quiz {
+    margin-top: 2%;
+}
+
+.music img {
+    width: 65px;
+    height: 65px;
+}
+
+.body-start-quiz {
+    background-image: url(../images/bg-start-quiz.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+}
+
+.form-start-quiz {
+    background-image: url(../images/form-start-quiz.png);
+    height: 100vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 13%;
+}
+
+.form-result-quiz {
+    background-image: url(../images/form-result-quiz-3.png);
+    height: 100vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    background-size: contain;
+}
+
+.form-start-quiz h4 {
+    color: white;
+    font-family: "Poppins";
+    font-weight: medium;
+    margin-bottom: 40px;
+}
+
+.form-start-quiz h1 {
+    color: white;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+.form-start-quiz p {
+    color: white;
+    font-family: "Poppins";
+    margin-left: 7px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+.status-quiz {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.body-result-quiz {
+    background-image: url(../images/bg-result-quiz.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+}
+
+.jawaban-benar {
+    color: white;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+.total-benar {
+    font-family: "Poppins";
+    font-weight: "semibold";
+    color:  rgba(255, 223, 128, 1);
+    font-size: 90px;
+}
+
+.form-result-quiz h2 {
+    font-family: "Poppins";
+    color: white;
+    font-weight: bold;
+}

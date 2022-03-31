@@ -20,6 +20,7 @@
 
     <link rel="stylesheet" href="assets/css/core.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive-mobile.css">
 
 </head>
 
@@ -41,19 +42,19 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarMenus">
                     <ul class="navbar-nav">
                         <li class="nav-item mx-2">
-                            <a class="nav-link" aria-current="page" href="../index.html">Beranda</a>
+                            <a class="nav-link active" aria-current="page" href="../index.html">Beranda</a>
                         </li>
                         <li class="nav-item mx-2">
                             <a class="nav-link" href="/pages/tutorial.html">Tutorial</a>
                         </li>
-                        <li class="nav-item mx-2 dropdown">
-                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        <li class="nav-item mx-2 dropdown spesial">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Kursus
                             </a>
-                            <div class="dropdown-menu px-4 py-2" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu spesial-dropdown px-4 py-2" aria-labelledby="navbarDropdown">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-6">
                                         <a href="/pages/detail-course.html" class="text-decoration-none">
                                             <div class="card border-0 bg-transparent">
                                                 <div class="row g-0">
@@ -73,7 +74,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-6">
                                         <a href="/pages/detail-course.html" class="text-decoration-none">
                                             <div class="card border-0 bg-transparent">
                                                 <div class="row g-0">
@@ -93,7 +94,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-6">
                                         <a href="/pages/detail-course.html" class="text-decoration-none">
                                             <div class="card border-0 bg-transparent">
                                                 <div class="row g-0">
@@ -113,7 +114,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-6">
                                         <a href="/pages/detail-course.html" class="text-decoration-none">
                                             <div class="card border-0 bg-transparent">
                                                 <div class="row g-0">
@@ -133,7 +134,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-6">
                                         <a href="/pages/detail-course.html" class="text-decoration-none">
                                             <div class="card border-0 bg-transparent">
                                                 <div class="row g-0">
@@ -153,7 +154,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-6">
                                         <a href="/pages/detail-course.html" class="text-decoration-none">
                                             <div class="card border-0 bg-transparent">
                                                 <div class="row g-0">
@@ -173,7 +174,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-6">
                                         <a href="/pages/detail-course.html" class="text-decoration-none">
                                             <div class="card border-0 bg-transparent">
                                                 <div class="row g-0">
@@ -193,7 +194,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-6">
                                         <a href="/pages/detail-course.html" class="text-decoration-none">
                                             <div class="card border-0 bg-transparent">
                                                 <div class="row g-0">
@@ -213,7 +214,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-6">
                                         <a href="/pages/detail-course.html" class="text-decoration-none">
                                             <div class="card border-0 bg-transparent">
                                                 <div class="row g-0">
@@ -244,13 +245,13 @@
                         </li>
                     </ul>
                     <form class="d-flex d-md-none d-lg-none d-xl-none mt-3">
-                        <button class="btn mx-1">Sign in</button>
-                        <button class="btn mx-1 bgr-dark color-light">Sign up</button>
+                        <a href="pages/login.html" class="btn mx-1">Sign in</a>
+                        <a href="pages/register.html" class="btn mx-1 bgr-dark color-light">Sign up</a>
                     </form>
                 </div>
                 <form class="d-none d-md-flex d-lg-flex d-xl-flex">
-                    <button class="btn mx-1">Sign in</button>
-                    <button class="btn mx-1 bgr-dark color-light">Sign up</button>
+                    <a href="pages/login.html" class="btn mx-1">Sign in</a>
+                    <a href="pages/register.html" class="btn mx-1 bgr-dark color-light">Sign up</a>
                 </form>
             </div>
         </nav>
@@ -260,7 +261,7 @@
 
         <div class="section-highlight" id="section-highlight">
             <div class="container">
-                <div class="row mt-5">
+                <div class="row mt-md-5">
                     <div class="col-md-5 mt-5">
                         <h1 class="title">
                             Mari Belajar & Berpetualang
@@ -278,7 +279,7 @@
         </div>
 
         <div class="section-learning" id="section-learning">
-            <div class="container bgr-dark p-5 color-light">
+            <div class="container bgr-dark p-md-5 color-light">
                 <div class="row p-3">
                     <div class="col-md-5">
                         <h2 class="tag color-light my-5">PELAJARAN</h2>
@@ -286,10 +287,10 @@
                         <p class="paragraph my-3">Menghadirkan mata pelajaran dasar
                             yang penting bagi anak. Dikemas dengan
                             menarik sehingga anak tidak akan bosan</p>
-                        <button class="btn bgr-primary mt-4">Selengkapnya</button>
+                        <button class="btn bgr-primary mt-md-4 mt-3">Selengkapnya</button>
                     </div>
                     <div class="col-md-1"></div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 mt-3">
                         <div class="row" id="learnings">
 
                         </div>
@@ -298,7 +299,7 @@
             </div>
         </div>
 
-        <div class="section-role my-5" id="section-role">
+        <div class="section-role my-5 " id="section-role">
             <div class="container">
                 <div class="row text-center">
                     <h4 class="tag text-uppercase">peran</h4>
@@ -374,7 +375,7 @@
                         <div class="col-md-6">
                             <img src="/assets/images/about-1.png" alt="Gambar about 1" class="img-fluid">
                         </div>
-                        <div class="col-md-6 mt-5 pt-5">
+                        <div class="col-md-6 mt-md-5 pt-md-5">
                             <h3 class="tag text-uppercase mt-5">PENGETAHUAN</h3>
                             <h3 class="title my-3">Pilih Kelas & Pelajaran yang Kamu Sukai</h3>
                             <p class="paragraph">Pelajaran & kelas yang disukai anak akan membuat perkembangan yang
@@ -392,8 +393,8 @@
                             <h3 class="tag text-uppercase mt-5">MANFAAT</h3>
                             <h3 class="title my-3">Apa yang akan kamu dapatkan ?</h3>
                             <div class="row">
-                                <div class="col-md-4 my-2">
-                                    <div class="card shadow-sm p-2">
+                                <div class="col-md-4 col-6 my-2">
+                                    <div class="mt-4 card shadow-sm p-2">
                                         <img src="/assets/icons/icon-1.png" class="card-img-top m-2 img-fluid"
                                             alt="coba">
                                         <div class="card-body">
@@ -402,8 +403,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 my-2">
-                                    <div class="card shadow-sm p-2">
+                                <div class="col-md-4 col-6 my-2">
+                                    <div class="mt-4 card shadow-sm p-2">
                                         <img src="/assets/icons/icon-2.png" class="card-img-top m-2 img-fluid"
                                             alt="coba">
                                         <div class="card-body">
@@ -412,8 +413,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 my-2">
-                                    <div class="card shadow-sm p-2">
+                                <div class="col-md-4 col-6 my-2">
+                                    <div class="mt-4 card shadow-sm p-2">
                                         <img src="/assets/icons/icon-3.png" class="card-img-top m-2 img-fluid"
                                             alt="coba">
                                         <div class="card-body">
@@ -422,8 +423,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 my-2">
-                                    <div class="card shadow-sm p-2">
+                                <div class="col-md-4 col-6 my-2">
+                                    <div class="mt-4 card shadow-sm p-2">
                                         <img src="/assets/icons/icon-4.png" class="card-img-top m-2 img-fluid"
                                             alt="coba">
                                         <div class="card-body">
@@ -432,8 +433,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 my-2">
-                                    <div class="card shadow-sm p-2">
+                                <div class="col-md-4 col-6 my-2">
+                                    <div class="mt-4 card shadow-sm p-2">
                                         <img src="/assets/icons/icon-5.png" class="card-img-top m-2 img-fluid"
                                             alt="coba">
                                         <div class="card-body">
@@ -442,8 +443,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 my-2">
-                                    <div class="card shadow-sm p-2">
+                                <div class="col-md-4 col-6 my-2">
+                                    <div class="mt-4 card shadow-sm p-2">
                                         <img src="/assets/icons/icon-6.png" class="card-img-top m-2 img-fluid"
                                             alt="coba">
                                         <div class="card-body">
@@ -468,9 +469,9 @@
                     <h4 class="tag text-uppercase">Kursus</h4>
                     <div class="d-flex">
                         <h4 class="title">Kursus Yang Populer</h4>
-                        <button class="btn ms-auto">Semua Kursus</button>
+                        <a class="btn all ms-auto my-auto" href="/pages/course.html">Semua Kursus</a>
                     </div>
-                    <div class="row mt-4" id="courses">
+                    <div class="row" id="courses">
                         <div class="col-md-4" id="course">
                             <div class="card shadow">
                                 <img src="/assets/images/course-3.png" class="card-img-top" alt="Ini gambar course 1">
@@ -494,7 +495,7 @@
                             </div>
                         </div>
                         <div class="col-md-4" id="course">
-                            <div class="card shadow">
+                            <div class="mt-4 card shadow">
                                 <img src="/assets/images/course-2.png" class="card-img-top" alt="Ini gambar course 1">
                                 <label for="label" class="label">Kursus</label>
                                 <div class="card-body">
@@ -541,8 +542,8 @@
             </div>
         </div>
 
-        <div class="section-hero my-5 p-5" id="section-hero">
-            <div class="container m-5 p-5">
+        <div class="section-hero my-5 p-md-5" id="section-hero">
+            <div class="container m-md-5 p-5">
                 <div class="row">
                     <div class="col-md-6"></div>
                     <div class="col-md-6">
@@ -573,13 +574,13 @@
     <footer>
 
         <div class="container pt-5 pb-3">
-            <div class="row py-5">
-                <div class="col-md-5">
+            <div class="row">
+                <div class="mt-5 col-md-5">
                     <h1>
                         <img src="/assets/icons/logo-white.png" alt=""> JACOL</h1>
                     <p>Website pilihan terbaik untuk membantu anak dalam proses belajar</p>
                 </div>
-                <div class="col-md-2">
+                <div class="mt-5 col-md-2">
                     <b>Layanan Kami</b>
                     <ul>
                         <li>Tentang Kami</li>
@@ -587,7 +588,7 @@
                         <li>Kontak Kami</li>
                     </ul>
                 </div>
-                <div class="col-md-2">
+                <div class="mt-5 col-md-2">
                     <b>Produk Kami</b>
                     <ul>
                         <li>Edukasi Anak</li>
@@ -595,7 +596,7 @@
                         <li>Kuis Online</li>
                     </ul>
                 </div>
-                <div class="col-md-2">
+                <div class="mt-5 col-md-2">
                     <b>Explore</b>
                     <ul>
                         <li>Permainan</li>
@@ -603,7 +604,7 @@
                         <li>Kursus</li>
                     </ul>
                 </div>
-                <div class="col-md-1"></div>
+                <div class="mt-5 col-md-1"></div>
             </div>
             <div class="row">
                 <h3 class="copyright">Copyright © 2022 JACOL ALL RIGHT RESERVED</h3>
