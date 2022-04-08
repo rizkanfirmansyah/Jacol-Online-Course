@@ -118,7 +118,7 @@
       "active": false,
       "level" : "senior",
       "feature": {
-        "rating": 5,
+        "rating": 4,
         "users" : 13,
         "age": 6
       }
@@ -148,7 +148,7 @@
       "active": false,
       "level" : "junior",
       "feature": {
-        "rating": 5,
+        "rating": 3,
         "users" : 19,
         "age": 6
       }
@@ -163,7 +163,7 @@
       "active": false,
       "level" : "junior",
       "feature": {
-        "rating": 5,
+        "rating": 4,
         "users" : 16,
         "age": 6
       }
@@ -178,7 +178,7 @@
       "active": false,
       "level" : "senior",
       "feature": {
-        "rating": 5,
+        "rating": 2,
         "users" : 12,
         "age": 12
       }

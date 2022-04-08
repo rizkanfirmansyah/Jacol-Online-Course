@@ -264,8 +264,8 @@
             <div class="container py-5">
                 <img src="../assets/images/detail-jumbotron.png" alt="" class="img-fluid">
                 <div class="row text-center justify-content-center mt-4">
-                    <h1 class="title">Seni Budaya</h1>
-                    <p class="paragraph ">Ditolak kesenian berujung menginvasi erpoa</p>
+                    <h1 class="title" id="title-course"></h1>
+                    <p class="paragraph" id="description-course"></p>
                     <button class="btn px-4 py-2">Kursus Gratis</button>
                 </div>
 
@@ -295,7 +295,7 @@
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="tag">Level Kursus</h5>
-                                        <h5 class="title">Junior</h5>
+                                        <h5 class="title text-capitalize" id="level-course"></h5>
                                         </p>
                                     </div>
                                 </div>
@@ -311,12 +311,8 @@
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="tag">Penilaian User</h5>
-                                        <h5 class="star">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
+                                        <h5 class="star" id="star-course">
+
                                         </h5>
                                         </p>
                                     </div>
@@ -457,9 +453,9 @@
                                     <h4 class="subtitle mt-3"><img src="../assets/icons/book.png" alt="coba aha"
                                             class="img-fluid me-2"> <span class="ms-2"> 20 Pelajaran</span></h4>
                                     <h4 class="subtitle"><img src="../assets/icons/users.png" alt="coba aha"
-                                            class="img-fluid me-2"> <span class="ms-2"> 65 Murid Terdaftar</span></h4>
+                                            class="img-fluid me-2"> <span class="ms-2"> <span id="users-course">0</span> Murid Terdaftar</span></h4>
                                     <h4 class="subtitle"><img src="../assets/icons/moon.png" alt="coba aha"
-                                            class="img-fluid me-2"> <span class="ms-2"> Untuk 5 tahun keatas</span>
+                                            class="img-fluid me-2"> <span class="ms-2"> Untuk <span id="age-course">0</span> tahun keatas</span>
                                     </h4>
                                     <div class="d-grid gap-2 mt-4">
                                         <button class="btn">Lihat Pelajaran</button>
@@ -910,7 +906,47 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
-    <script src="/../assets/js/function.js"></script>
+    <script src="/assets/js/function.js"></script>
+
+    <script>
+        var baseUrl = (window.location).href; // You can also use document.URL.
+        var paramId = baseUrl.substring(baseUrl.lastIndexOf('=') + 1);
+        var titleCourse = document.getElementById("title-course")
+        var descriptionCourse = document.getElementById("description-course")
+        var levelCourse = document.getElementById("level-course")
+        var starCourse = document.getElementById("star-course")
+        var usersCourse = document.getElementById("users-course")
+        var ageCourse = document.getElementById("age-course")
+
+        fetchData("course").then((response) => {
+            let i = 1;
+            let html = "";
+
+            response.map((res) => {
+                let icon = "junior.png";
+                if (res.level == "senior") {
+                    icon = "senior.png";
+                }
+                if (res.id == paramId) {
+                    titleCourse.textContent = res.title
+                    descriptionCourse.textContent = res.description
+                    levelCourse.textContent = res.level
+                    usersCourse.textContent = res.feature.users
+                    ageCourse.textContent = res.feature.age
+
+                    let star = '';
+                    for (let i = 0; i < res.feature.rating; i++) {
+                        star += '<i class="fas fa-star"></i>'
+                    }
+
+                    starCourse.innerHTML = star
+
+                }
+            });
+
+            document.querySelector(".courses").innerHTML = html;
+        });
+    </script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

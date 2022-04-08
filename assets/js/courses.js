@@ -129,7 +129,7 @@ function getCourses(category, level, input) {
                             <a href="#" class="btn bgr-primary px-4 py-2">Umur ${course.feature.age}+</a>
                         </div>
                         <div class="d-grid gap-2 mt-3">
-                            <a class="btn bgr-alternatif" href="/pages/detail-course.html">Bergabung </a>
+                            <a class="btn bgr-alternatif" href="/pages/detail-course.html?id=${course.id}">Bergabung </a>
                         </div>
                     </div>
                 </div>
@@ -177,7 +177,7 @@ function getCoursesAll(pagination = 6) {
                           <a href="#" class="btn bgr-primary px-4 py-2">Umur ${res.feature.age}+</a>
                       </div>
                       <div class="d-grid gap-2 mt-3">
-                          <a class="btn bgr-alternatif" href="/pages/detail-course.html">Bergabung </a>
+                          <a class="btn bgr-alternatif" href="/pages/detail-course.html?id=${res.id}">Bergabung </a>
                       </div>
                   </div>
               </div>
