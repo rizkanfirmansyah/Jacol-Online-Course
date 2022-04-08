@@ -101,6 +101,7 @@
       "description" : "Belajar membuat gambar 2d sampai mewarnai gambar tersebut",
       "category" : "kursus",
       "active": false,
+      "text" : "Ilmu alam atau ilmu pengetahuan alam disingkat IPA (bahasa Inggris: natural science) adalah istilah yang digunakan yang merujuk pada rumpun ilmu di mana objeknya adalah benda-benda alam dengan hukum-hukum yang pasti dan umum, berlaku kapan pun dan di mana pun. Orang yang menekuni bidang ilmu pengetahuan alam disebut sebagai Saintis. <br>Sains (science) diambil dari kata latin scientia yang arti harfiahnya adalah pengetahuan. Sund dan Trowbribge merumuskan bahwa Sains merupakan kumpulan pengetahuan dan proses. Sedangkan Kuslan Stone menyebutkan bahwa Sains adalah kumpulan pengetahuan dan cara-cara untuk mendapatkan dan mempergunakan pengetahuan itu. Sains merupakan produk dan proses yang tidak dapat dipisahkan. ",
       "level" : "junior",
       "feature": {
         "rating": 5,
@@ -116,6 +117,7 @@
       "description" : "Melatih logika dan perhitungan dalam dunia matematika. Belajar dari pemula sampai mahir",
       "category" : "kursus",
       "active": false,
+      "text" : "Matematika (dari bahasa Yunani: μαθημα - mathēma, pengetahuan, pemikiran, pembelajaran) atau sebelumnya disebut ilmu hisab adalah ilmu yang mempelajari besaran, struktur, ruang, dan perubahan. Para matematikawan merangkai dan menggunakan berbagai pola, kemudian menggunakannya untuk merumuskan konjektur baru, dan membangun kebenaran melalui metode deduksi yang ketat diturunkan dari aksioma-aksioma dan definisi-definisi yang bersesuaian. <br>Terjadi perdebatan apakah objek-objek matematika seperti bilangan dan titik sudah ada di semesta, ataukah ditemukan dan diciptakan manusia. Pengkajian logis mengenai bentuk, susunan, besaran, dan konsep-konsep yang berkaitan, matematika sering kali dikelompokkan ke dalam tiga bidang: aijabar, analisis, dan geometri. Walaupun demikian, tidak dapat dibuat pembagian yang jelas karena cabang-cabang ini telah bercampur baur. Pada dasarnya aijabar melibatkan bilangan dan pengabstrakannya. Analisis melibatkan kekontinuan dan limit, sedangkan geometri membahas bentuk dan konsep-konsep yang berkaitan; sains didasarkan atas postulat yang dapat menurunkan kesimpulan yang diperlukan dari asumsi tertentu.",
       "level" : "senior",
       "feature": {
         "rating": 4,
@@ -131,6 +133,7 @@
       "description" : "Melatih ilmu kesenian pada tingkat junior dengan mengajarkan dasar yang sangat baik",
       "category" : "kursus",
       "active": false,
+      "text" : "Kata “seni” dalam bahasa Indonesia mempunyai riwayat peristilahan yang tidak sederhana, baik dipandang dari segi terminologis maupun etimologisnya. Hal tersebut mulanya disebabkan karena ketiadaan padanan istilah yang pas dalam bahasa Indonesia/Melayu untuk konsep art dalam bahasa Inggris atau kunst dalam bahasa Belanda. Asal mula kata seni dalam bahasa Indonesia tidak begitu jelas dan mempunyai banyak teori, antara lain: Kata seni dari bahasa Melayu Riau (Sungai Rokan) yaitu sonik yang berasal dari kata ‘so’ atau ‘se’ yang memiliki arti ‘satu’, berasal dari bahasa Sanskerta ‘swa’ (satu), yang digabung dengan kata ‘nik’ yang memiliki sesuatu yang sangat kecil atau halus. Kata sonik/sonit/seni artinya suatu yang halus bentuk rupa maupun sifatnya. Kata seni dari bahasa Sansekerta sani yang memiliki arti persembahan, pelayanan dan pemberian yang tulus, sehingga selalu dikaitakan dengan sebuah upacara keagamaan yang disebut dengan kesenian. Kata seni dari bahasa Belanda genie yang berarti genius atau mempunyai kemampuan luar biasa yang dibawa sejak lahir. Jadi dapat disimpulkan bahwa seni itu merupakan kemampuan bakat yang dimiliki seseorang sejak lahir buah dari kejeniusan.",
       "level" : "junior",
       "feature": {
         "rating": 5,
@@ -146,6 +149,7 @@
       "description" : "Melatih siswa untuk menjadi penari yang handal dan juga hafal teknik tertentu dalam seni tari.",
       "category" : "kursus",
       "active": false,
+      "text" : "Seni tari bisa dikatakan sebagai bagian dari kebudayaan yang ada pada setiap negara atau daerah termasuk negara Indonesia. Seni tari yang ada di Indonesia sangatlah banyak dan merupakan setiap gerakan tari merupakan ciptaan dari masyarakat Indonesia yang di mana di dalam setiap gerakan tari memiliki filosofinya masing-masing. Seni tari akan selalu mengalami perkembangan seiring dengan berkembangnya zaman. Maka dari itu, bagi sebagian orang mengatakan bahwa seni tari sudah ada sejak lama.<br>Dengan banyaknya seni tari yang ada di Indonesia menandakan bahwa Indonesia memiliki keanekaragaman budaya. Oleh sebab itu, sudah seharusnya bagi setiap masyarakat Indonesia terutama generasi muda perlu melestarikan seni tari Indonesia. Jika, seni tari terus menerus dilestarikan, maka kemungkinan besar seni tari Indonesia semakin dikenal oleh masyarakat dunia.",
       "level" : "junior",
       "feature": {
         "rating": 3,
@@ -161,6 +165,7 @@
       "description" : "Disini siswa akan diajarkan cara untuk mengetahui ilmu sosial dan sejarah indonesia.",
       "category" : "kursus",
       "active": false,
+      "text" : "Kata “seni” dalam bahasa Indonesia mempunyai riwayat peristilahan yang tidak sederhana, baik dipandang dari segi terminologis maupun etimologisnya. Hal tersebut mulanya disebabkan karena ketiadaan padanan istilah yang pas dalam bahasa Indonesia/Melayu untuk konsep art dalam bahasa Inggris atau kunst dalam bahasa Belanda. Asal mula kata seni dalam bahasa Indonesia tidak begitu jelas dan mempunyai banyak teori, antara lain: Kata seni dari bahasa Melayu Riau (Sungai Rokan) yaitu sonik yang berasal dari kata ‘so’ atau ‘se’ yang memiliki arti ‘satu’, berasal dari bahasa Sanskerta ‘swa’ (satu), yang digabung dengan kata ‘nik’ yang memiliki sesuatu yang sangat kecil atau halus. Kata sonik/sonit/seni artinya suatu yang halus bentuk rupa maupun sifatnya. Kata seni dari bahasa Sansekerta sani yang memiliki arti persembahan, pelayanan dan pemberian yang tulus, sehingga selalu dikaitakan dengan sebuah upacara keagamaan yang disebut dengan kesenian. Kata seni dari bahasa Belanda genie yang berarti genius atau mempunyai kemampuan luar biasa yang dibawa sejak lahir. Jadi dapat disimpulkan bahwa seni itu merupakan kemampuan bakat yang dimiliki seseorang sejak lahir buah dari kejeniusan.",
       "level" : "junior",
       "feature": {
         "rating": 4,
@@ -176,6 +181,7 @@
       "description" : "Disini siswa akan diajarkan cara untuk menjadi warga negara yang baik dan patuh dengan undang-undang.",
       "category" : "kursus",
       "active": false,
+      "text" : "Kata “seni” dalam bahasa Indonesia mempunyai riwayat peristilahan yang tidak sederhana, baik dipandang dari segi terminologis maupun etimologisnya. Hal tersebut mulanya disebabkan karena ketiadaan padanan istilah yang pas dalam bahasa Indonesia/Melayu untuk konsep art dalam bahasa Inggris atau kunst dalam bahasa Belanda. Asal mula kata seni dalam bahasa Indonesia tidak begitu jelas dan mempunyai banyak teori, antara lain: Kata seni dari bahasa Melayu Riau (Sungai Rokan) yaitu sonik yang berasal dari kata ‘so’ atau ‘se’ yang memiliki arti ‘satu’, berasal dari bahasa Sanskerta ‘swa’ (satu), yang digabung dengan kata ‘nik’ yang memiliki sesuatu yang sangat kecil atau halus. Kata sonik/sonit/seni artinya suatu yang halus bentuk rupa maupun sifatnya. Kata seni dari bahasa Sansekerta sani yang memiliki arti persembahan, pelayanan dan pemberian yang tulus, sehingga selalu dikaitakan dengan sebuah upacara keagamaan yang disebut dengan kesenian. Kata seni dari bahasa Belanda genie yang berarti genius atau mempunyai kemampuan luar biasa yang dibawa sejak lahir. Jadi dapat disimpulkan bahwa seni itu merupakan kemampuan bakat yang dimiliki seseorang sejak lahir buah dari kejeniusan.",
       "level" : "senior",
       "feature": {
         "rating": 2,
@@ -191,6 +197,7 @@
       "description" : "Melatih siswa agar memiliki raga yang sehat dan imun yang kuat dalam setiap kegiatan.",
       "category" : "kursus",
       "active": false,
+      "text" : "Kata “seni” dalam bahasa Indonesia mempunyai riwayat peristilahan yang tidak sederhana, baik dipandang dari segi terminologis maupun etimologisnya. Hal tersebut mulanya disebabkan karena ketiadaan padanan istilah yang pas dalam bahasa Indonesia/Melayu untuk konsep art dalam bahasa Inggris atau kunst dalam bahasa Belanda. Asal mula kata seni dalam bahasa Indonesia tidak begitu jelas dan mempunyai banyak teori, antara lain: Kata seni dari bahasa Melayu Riau (Sungai Rokan) yaitu sonik yang berasal dari kata ‘so’ atau ‘se’ yang memiliki arti ‘satu’, berasal dari bahasa Sanskerta ‘swa’ (satu), yang digabung dengan kata ‘nik’ yang memiliki sesuatu yang sangat kecil atau halus. Kata sonik/sonit/seni artinya suatu yang halus bentuk rupa maupun sifatnya. Kata seni dari bahasa Sansekerta sani yang memiliki arti persembahan, pelayanan dan pemberian yang tulus, sehingga selalu dikaitakan dengan sebuah upacara keagamaan yang disebut dengan kesenian. Kata seni dari bahasa Belanda genie yang berarti genius atau mempunyai kemampuan luar biasa yang dibawa sejak lahir. Jadi dapat disimpulkan bahwa seni itu merupakan kemampuan bakat yang dimiliki seseorang sejak lahir buah dari kejeniusan.",
       "level" : "junior",
       "feature": {
         "rating": 5,
@@ -206,6 +213,7 @@
       "description" : "Belajar membuat origami dengan cara yang menyenangkan dan kreatif",
       "category" : "modul",
       "active": false,
+      "text" : "Kata “seni” dalam bahasa Indonesia mempunyai riwayat peristilahan yang tidak sederhana, baik dipandang dari segi terminologis maupun etimologisnya. Hal tersebut mulanya disebabkan karena ketiadaan padanan istilah yang pas dalam bahasa Indonesia/Melayu untuk konsep art dalam bahasa Inggris atau kunst dalam bahasa Belanda. Asal mula kata seni dalam bahasa Indonesia tidak begitu jelas dan mempunyai banyak teori, antara lain: Kata seni dari bahasa Melayu Riau (Sungai Rokan) yaitu sonik yang berasal dari kata ‘so’ atau ‘se’ yang memiliki arti ‘satu’, berasal dari bahasa Sanskerta ‘swa’ (satu), yang digabung dengan kata ‘nik’ yang memiliki sesuatu yang sangat kecil atau halus. Kata sonik/sonit/seni artinya suatu yang halus bentuk rupa maupun sifatnya. Kata seni dari bahasa Sansekerta sani yang memiliki arti persembahan, pelayanan dan pemberian yang tulus, sehingga selalu dikaitakan dengan sebuah upacara keagamaan yang disebut dengan kesenian. Kata seni dari bahasa Belanda genie yang berarti genius atau mempunyai kemampuan luar biasa yang dibawa sejak lahir. Jadi dapat disimpulkan bahwa seni itu merupakan kemampuan bakat yang dimiliki seseorang sejak lahir buah dari kejeniusan.",
       "level" : "senior",
       "feature": {
         "rating": 5,
@@ -221,6 +229,7 @@
       "description" : "Belajar menari dengan tarian yang indah dan menawan",
       "category" : "modul",
       "active": false,
+      "text" : "Kata “seni” dalam bahasa Indonesia mempunyai riwayat peristilahan yang tidak sederhana, baik dipandang dari segi terminologis maupun etimologisnya. Hal tersebut mulanya disebabkan karena ketiadaan padanan istilah yang pas dalam bahasa Indonesia/Melayu untuk konsep art dalam bahasa Inggris atau kunst dalam bahasa Belanda. Asal mula kata seni dalam bahasa Indonesia tidak begitu jelas dan mempunyai banyak teori, antara lain: Kata seni dari bahasa Melayu Riau (Sungai Rokan) yaitu sonik yang berasal dari kata ‘so’ atau ‘se’ yang memiliki arti ‘satu’, berasal dari bahasa Sanskerta ‘swa’ (satu), yang digabung dengan kata ‘nik’ yang memiliki sesuatu yang sangat kecil atau halus. Kata sonik/sonit/seni artinya suatu yang halus bentuk rupa maupun sifatnya. Kata seni dari bahasa Sansekerta sani yang memiliki arti persembahan, pelayanan dan pemberian yang tulus, sehingga selalu dikaitakan dengan sebuah upacara keagamaan yang disebut dengan kesenian. Kata seni dari bahasa Belanda genie yang berarti genius atau mempunyai kemampuan luar biasa yang dibawa sejak lahir. Jadi dapat disimpulkan bahwa seni itu merupakan kemampuan bakat yang dimiliki seseorang sejak lahir buah dari kejeniusan.",
       "level" : "senior",
       "feature": {
         "rating": 5,
@@ -236,6 +245,7 @@
       "description" : "Belajar tentang ekosistem sesuatu dalam alam",
       "category" : "modul",
       "active": false,
+      "text" : "Kata “seni” dalam bahasa Indonesia mempunyai riwayat peristilahan yang tidak sederhana, baik dipandang dari segi terminologis maupun etimologisnya. Hal tersebut mulanya disebabkan karena ketiadaan padanan istilah yang pas dalam bahasa Indonesia/Melayu untuk konsep art dalam bahasa Inggris atau kunst dalam bahasa Belanda. Asal mula kata seni dalam bahasa Indonesia tidak begitu jelas dan mempunyai banyak teori, antara lain: Kata seni dari bahasa Melayu Riau (Sungai Rokan) yaitu sonik yang berasal dari kata ‘so’ atau ‘se’ yang memiliki arti ‘satu’, berasal dari bahasa Sanskerta ‘swa’ (satu), yang digabung dengan kata ‘nik’ yang memiliki sesuatu yang sangat kecil atau halus. Kata sonik/sonit/seni artinya suatu yang halus bentuk rupa maupun sifatnya. Kata seni dari bahasa Sansekerta sani yang memiliki arti persembahan, pelayanan dan pemberian yang tulus, sehingga selalu dikaitakan dengan sebuah upacara keagamaan yang disebut dengan kesenian. Kata seni dari bahasa Belanda genie yang berarti genius atau mempunyai kemampuan luar biasa yang dibawa sejak lahir. Jadi dapat disimpulkan bahwa seni itu merupakan kemampuan bakat yang dimiliki seseorang sejak lahir buah dari kejeniusan.",
       "level" : "senior",
       "feature": {
         "rating": 5,
@@ -251,6 +261,7 @@
       "description" : "Belajar merangkai suatu ptototype dari seni kerajinan siswa",
       "category" : "modul",
       "active": false,
+      "text" : "Kata “seni” dalam bahasa Indonesia mempunyai riwayat peristilahan yang tidak sederhana, baik dipandang dari segi terminologis maupun etimologisnya. Hal tersebut mulanya disebabkan karena ketiadaan padanan istilah yang pas dalam bahasa Indonesia/Melayu untuk konsep art dalam bahasa Inggris atau kunst dalam bahasa Belanda. Asal mula kata seni dalam bahasa Indonesia tidak begitu jelas dan mempunyai banyak teori, antara lain: Kata seni dari bahasa Melayu Riau (Sungai Rokan) yaitu sonik yang berasal dari kata ‘so’ atau ‘se’ yang memiliki arti ‘satu’, berasal dari bahasa Sanskerta ‘swa’ (satu), yang digabung dengan kata ‘nik’ yang memiliki sesuatu yang sangat kecil atau halus. Kata sonik/sonit/seni artinya suatu yang halus bentuk rupa maupun sifatnya. Kata seni dari bahasa Sansekerta sani yang memiliki arti persembahan, pelayanan dan pemberian yang tulus, sehingga selalu dikaitakan dengan sebuah upacara keagamaan yang disebut dengan kesenian. Kata seni dari bahasa Belanda genie yang berarti genius atau mempunyai kemampuan luar biasa yang dibawa sejak lahir. Jadi dapat disimpulkan bahwa seni itu merupakan kemampuan bakat yang dimiliki seseorang sejak lahir buah dari kejeniusan.",
       "level" : "senior",
       "feature": {
         "rating": 5,
@@ -266,6 +277,7 @@
       "description" : "Belajar menyanyi dengan suara yang merdu dan enak untuk didengar",
       "category" : "modul",
       "active": false,
+      "text" : "Kata “seni” dalam bahasa Indonesia mempunyai riwayat peristilahan yang tidak sederhana, baik dipandang dari segi terminologis maupun etimologisnya. Hal tersebut mulanya disebabkan karena ketiadaan padanan istilah yang pas dalam bahasa Indonesia/Melayu untuk konsep art dalam bahasa Inggris atau kunst dalam bahasa Belanda. Asal mula kata seni dalam bahasa Indonesia tidak begitu jelas dan mempunyai banyak teori, antara lain: Kata seni dari bahasa Melayu Riau (Sungai Rokan) yaitu sonik yang berasal dari kata ‘so’ atau ‘se’ yang memiliki arti ‘satu’, berasal dari bahasa Sanskerta ‘swa’ (satu), yang digabung dengan kata ‘nik’ yang memiliki sesuatu yang sangat kecil atau halus. Kata sonik/sonit/seni artinya suatu yang halus bentuk rupa maupun sifatnya. Kata seni dari bahasa Sansekerta sani yang memiliki arti persembahan, pelayanan dan pemberian yang tulus, sehingga selalu dikaitakan dengan sebuah upacara keagamaan yang disebut dengan kesenian. Kata seni dari bahasa Belanda genie yang berarti genius atau mempunyai kemampuan luar biasa yang dibawa sejak lahir. Jadi dapat disimpulkan bahwa seni itu merupakan kemampuan bakat yang dimiliki seseorang sejak lahir buah dari kejeniusan.",
       "level" : "junior",
       "feature": {
         "rating": 5,
