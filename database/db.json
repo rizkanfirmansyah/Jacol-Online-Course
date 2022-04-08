@@ -96,7 +96,7 @@
     {
       "id": 13,
       "group": "course",
-      "img": "learn-1.png",
+      "img": "course-1.png",
       "title": "IPA",
       "description" : "Belajar membuat gambar 2d sampai mewarnai gambar tersebut",
       "category" : "kursus",
@@ -119,7 +119,7 @@
       "level" : "senior",
       "feature": {
         "rating": 5,
-        "users" : 20,
+        "users" : 13,
         "age": 6
       }
     },
@@ -134,7 +134,7 @@
       "level" : "junior",
       "feature": {
         "rating": 5,
-        "users" : 20,
+        "users" : 24,
         "age": 6
       }
     },
@@ -144,6 +144,51 @@
       "img": "learn-3.png",
       "title": "Seni Tari",
       "description" : "Melatih siswa untuk menjadi penari yang handal dan juga hafal teknik tertentu dalam seni tari.",
+      "category" : "kursus",
+      "active": false,
+      "level" : "junior",
+      "feature": {
+        "rating": 5,
+        "users" : 19,
+        "age": 6
+      }
+    },
+    {
+      "id": 17,
+      "group": "course",
+      "img": "learn-2.png",
+      "title": "IPS",
+      "description" : "Disini siswa akan diajarkan cara untuk mengetahui ilmu sosial dan sejarah indonesia.",
+      "category" : "kursus",
+      "active": false,
+      "level" : "junior",
+      "feature": {
+        "rating": 5,
+        "users" : 16,
+        "age": 6
+      }
+    },
+    {
+      "id": 18,
+      "group": "course",
+      "img": "materi-4.png",
+      "title": "PKN",
+      "description" : "Disini siswa akan diajarkan cara untuk menjadi warga negara yang baik dan patuh dengan undang-undang.",
+      "category" : "kursus",
+      "active": false,
+      "level" : "senior",
+      "feature": {
+        "rating": 5,
+        "users" : 12,
+        "age": 12
+      }
+    },
+    {
+      "id": 19,
+      "group": "course",
+      "img": "learn-1.png",
+      "title": "Olahraga",
+      "description" : "Melatih siswa agar memiliki raga yang sehat dan imun yang kuat dalam setiap kegiatan.",
       "category" : "kursus",
       "active": false,
       "level" : "junior",
@@ -164,7 +209,7 @@
       "level" : "senior",
       "feature": {
         "rating": 5,
-        "users" : 20,
+        "users" : 4,
         "age": 12
       }
     },
@@ -186,6 +231,36 @@
     {
       "id": 31,
       "group": "course",
+      "img": "learn-1.png",
+      "title": "Ekosistem",
+      "description" : "Belajar tentang ekosistem sesuatu dalam alam",
+      "category" : "modul",
+      "active": false,
+      "level" : "senior",
+      "feature": {
+        "rating": 5,
+        "users" : 14,
+        "age": 12
+      }
+    },
+    {
+      "id": 32,
+      "group": "course",
+      "img": "materi-1.png",
+      "title": "Merangkai",
+      "description" : "Belajar merangkai suatu ptototype dari seni kerajinan siswa",
+      "category" : "modul",
+      "active": false,
+      "level" : "senior",
+      "feature": {
+        "rating": 5,
+        "users" : 10,
+        "age": 12
+      }
+    },
+    {
+      "id": 33,
+      "group": "course",
       "img": "learn-2.png",
       "title": "Menyanyi",
       "description" : "Belajar menyanyi dengan suara yang merdu dan enak untuk didengar",
@@ -194,7 +269,7 @@
       "level" : "junior",
       "feature": {
         "rating": 5,
-        "users" : 20,
+        "users" : 9,
         "age": 6
       }
     }

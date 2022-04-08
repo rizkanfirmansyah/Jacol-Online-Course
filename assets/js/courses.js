@@ -130,6 +130,8 @@ function getCourses(category, level, input) {
         `;
       }
     });
+
+    document.querySelector("#fromData").innerHTML = courses.length;
     document.querySelector(".kursus").innerHTML =
       html == "" ? '<h3 class="text-center mb-3">Data Not Found</h3>' : html;
   });
@@ -179,5 +181,6 @@ function getCoursesAll(pagination = 6) {
     });
 
     document.querySelector("#courses").innerHTML = html;
+    document.querySelector("#fromData").innerHTML = response.length;
   });
 }
