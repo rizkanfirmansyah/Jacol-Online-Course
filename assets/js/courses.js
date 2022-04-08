@@ -58,9 +58,16 @@ function getCourses(category, level, input) {
     let html = "";
     let courses = [];
 
+    
     response.map((res) => {
       if (input != undefined && input.length > 0) {
-        let keyword = res.description.indexOf(input) > 0 ? 1 : 0;
+        let keyword = 0;
+        if (
+          res.description.indexOf(input) >= 0 ||
+          res.title.indexOf(input) >= 0
+        ) {
+          keyword = 1;
+        }
         if (keyword > 0) {
           if (category.length > 0 && level.length > 0) {
             if (res.category == category && res.level == level) {
