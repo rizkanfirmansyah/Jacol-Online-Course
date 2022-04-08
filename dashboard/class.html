@@ -16,12 +16,14 @@
 
     <title>JACOL - Course Kids & Adventure</title>
 
-    <link rel="shortcut icon" href="assets/icons/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/icons/logo.png" type="image/x-icon">
 
     <link rel="stylesheet" href="../assets/css/core.css">
     <link rel="stylesheet" href="../assets/css/dashboard.css">
     <link rel="stylesheet" href="../assets/css/responsive-mobile.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
 </head>
 
 <body>
@@ -273,8 +275,8 @@
                     <h1 class="title text-uppercase">Kelas Saya</h1>
                     <div class="card p-5 mt-4 border-0">
                         <h2 class="title mb-3">Progress Belajar</h2>
-                        <div class="row">
-                            <div class="col-md-5">
+                        <div class="row" id="my-class">
+                            <div class="my-class col-md-5">
                                 <div class="card text-white">
                                     <img src="../assets/images/bg-quiz-1.png" class="card-img" alt="..."
                                         style="height: 135px;">
@@ -287,8 +289,8 @@
                                                 <h5 class="title my-2">B Indonesia (Junior)</h5>
                                             </div>
                                         </div>
-                                        <span style="font-size: 12px;">Terakhir dilihat : 12 Mei 2021</span> <span
-                                            class="float-end" style="font-size: 12px;"><b>40/100%</b></span>
+                                        <span>Terakhir dilihat : 12 Mei 2021</span> <span
+                                            class="float-end"><b>40/100%</b></span>
                                         <div class="progress" style="border-radius: 10px;">
                                             <div class="progress-bar w-40 bgr-primary" role="progressbar"
                                                 aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
@@ -297,7 +299,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-5">
+                            <div class="my-class col-md-5">
                                 <div class="card text-white">
                                     <img src="../assets/images/bg-quiz-1.png" class="card-img" alt="..."
                                         style="height: 135px;">
@@ -310,8 +312,31 @@
                                                 <h5 class="title my-2">Matematika (Junior)</h5>
                                             </div>
                                         </div>
-                                        <span style="font-size: 12px;">Terakhir dilihat : 21 Oktober 2021</span> <span
-                                            class="float-end" style="font-size: 12px;"><b>80/100%</b></span>
+                                        <span>Terakhir dilihat : 21 Oktober 2021</span> <span
+                                            class="float-end"><b>80/100%</b></span>
+                                        <div class="progress" style="border-radius: 10px;">
+                                            <div class="progress-bar w-80 bgr-primary" role="progressbar"
+                                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+                                                style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-class col-md-5">
+                                <div class="card text-white">
+                                    <img src="../assets/images/bg-quiz-1.png" class="card-img" alt="..."
+                                        style="height: 135px;">
+                                    <div class="card-img-overlay">
+                                        <div class="row mb-1">
+                                            <div class="col-md-5">
+                                                <img src="/assets/images/course-1.png" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="col-md-7 text-end">
+                                                <h5 class="title my-2">Matematika (Junior)</h5>
+                                            </div>
+                                        </div>
+                                        <span>Terakhir dilihat : 21 Oktober 2021</span> <span
+                                            class="float-end"><b>80/100%</b></span>
                                         <div class="progress" style="border-radius: 10px;">
                                             <div class="progress-bar w-80 bgr-primary" role="progressbar"
                                                 aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
@@ -331,18 +356,72 @@
                             </li>
                             <li class="border-0 list-group-item my-1 ms-4 active"><a class="text-decoration-none"
                                     href="class.html"><i class="fas fa-list me-3"></i> Kelas Saya</a></li>
-                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none" href="#"><i
+                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none" href="my-profile.html"><i
                                         class="fas fa-user me-3"></i> Profil Saya</a></li>
-                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none" href="#"><i
+                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none" href="achievement.html"><i
                                         class="fas fa-trophy me-3"></i> Penghargaan</a></li>
-                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none" href="#"><i
+                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none" href="badge.html"><i
                                         class="fa-solid fa-certificate me-3"></i> Lencana</a></li>
-                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none" href="#"><i
+                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none" href="settings.html"><i
                                         class="fas fa-gear me-3"></i> Pengaturan</a></li>
                             <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none"
                                     href="../index.html"><i class="fa-solid fa-right-from-bracket me-3"></i> Keluar</a>
                             </li>
                         </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="card p-5 mt-4 border-0">
+                        <h2 class="title mb-3">Kelas yang sudah selesai</h2>
+                        <div class="row" id="class-done-card">
+                            <div class="col-md-12">
+                                <div class="card text-white border-0">
+                                    <div class="card-header bg-transparent border-0">
+                                        <div class="row mb-1 px-4">
+                                            <div class="col-md-7">
+                                                <img src="/assets/images/materi-5.png" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="col-md-5 text-end">
+                                                <h5 class="title my-2">Seni Budaya (Junior)</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body pt-5">
+                                        <span>Terakhir dilihat : 12 Mei 2021</span> <span
+                                            class="float-end"><b>100/100%</b></span>
+                                        <div class="progress" style="border-radius: 10px;">
+                                            <div class="progress-bar w-100 bgr-primary" role="progressbar"
+                                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+                                                style="width: 100%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="card text-white border-0">
+                                    <div class="card-header bg-transparent border-0">
+                                        <div class="row mb-1 px-4">
+                                            <div class="col-md-7">
+                                                <img src="/assets/images/materi-4.png" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="col-md-5 text-end">
+                                                <h5 class="title my-2">B Indonesia (Junior)</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body pt-5">
+                                        <span>Terakhir dilihat : 12 Mei 2021</span> <span
+                                            class="float-end"><b>100/100%</b></span>
+                                        <div class="progress" style="border-radius: 10px;">
+                                            <div class="progress-bar w-100 bgr-primary" role="progressbar"
+                                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+                                                style="width: 100%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -379,7 +458,8 @@
                                                 font-size: 20px;
                                                 line-height: 27px;
                                                 color: rgba(18, 18, 18, 0.75);">Skor Kuis : 70%</p>
-                                                <b>+50 <img src="/assets/images/item-xp.png" alt="" class="img-fluid" style="width: 43px;"></b>
+                                                <b>+50 <img src="/assets/images/item-xp.png" alt="" class="img-fluid"
+                                                        style="width: 43px;"></b>
                                             </div>
                                         </div>
                                     </div>
@@ -410,10 +490,37 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
     <script src="https://www.chartjs.org/dist/2.6.0/Chart.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
 
     <script src="/assets/js/function.js"></script>
     <script src="/assets/js/script.js"></script>
     <script src="/assets/js/demo.js"></script>
+
+    <script>
+        var slider = tns({
+            container: '#my-class',
+            items: 2,
+            slideBy: 'page',
+            autoplay: false,
+            controls : false,
+            mouseDrag : true,
+            nav:false,
+            arrowKeys:false,
+        });
+
+        var slider2 = tns({
+            container: '#class-done-card',
+            items: 1,
+            slideBy: 'page',
+            autoplay: false,
+            controls : false,
+            mouseDrag : true,
+            nav:false,
+            arrowKeys:false,
+        });
+
+    </script>
 
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->

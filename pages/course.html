@@ -262,12 +262,12 @@
             <div class="container py-5">
                 <div class="row">
                     <div class="col-md-4">
-                        <h1 class="title">DAFTAR KURSUS</h1>
+                        <h1 class="title">DAFTAR <br> <div class="line-kuning">KURSUS</div></h1>
                     </div>
                     <div class="col-md-6">
                         <h1 class="description">Pilih 1 dari 1,000+ kursus pilihan nasional maupun internasional</h1>
                         <p class="paragraph my-3">Kamu bisa memulai dengan menekan tombol di bawah</p>
-                        <a href="tutorial.html"><button class="btn px-4 py-2"><i class="fas fa-play"></i> Mulai Tutorial</button></a>
+                        <a href="tutorial.html"><button class="btn px-4 py-2"><i class="fas fa-play me-1"></i> Mulai Tutorial</button></a>
                     </div>
                 </div>
             </div>
@@ -286,24 +286,24 @@
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <select class="form-select border-0 shadow-sm" aria-label="Default select example">
-                            <option selected>Level</option>
-                            <option value="1">Junior</option>
-                            <option value="2">Senior</option>
+                        <select class="form-select border-0 shadow-sm" id="level-courses" aria-label="Default select example">
+                            <option value="" selected>Level</option>
+                            <option value="junior">Junior</option>
+                            <option value="senior">Senior</option>
                             
                         </select>
                     </div>
                     <div class="col-md-2">
-                        <select class="form-select border-0 shadow-sm" aria-label="Default select example">
-                            <option selected>Pelajaran</option>
-                            <option value="1">Kursus</option>
-                            <option value="2">Modul</option>
+                        <select class="form-select border-0 shadow-sm" id="type-courses" aria-label="Default select example">
+                            <option value="" selected>Pelajaran</option>
+                            <option value="kursus">Kursus</option>
+                            <option value="modul">Modul</option>
                           
                         </select>
                     </div>
                     <div class="col-md-2">
                         <div class="d-grid gap-2">
-                            <button class="btn text-center">Filter</button>
+                            <button class="btn text-center" id="button-filter">Filter</button>
                         </div>
                     </div>
 
@@ -330,7 +330,7 @@
         <div class="section-course my-5" id="section-course">
             <div class="container">
                 <div class="row">
-                    <div class="row" id="courses">
+                    <div class="row kursus" id="courses">
                         <div class="col-md-4 mt-4">
                             <div class="card shadow">
                                 <img src="/../assets/images/learn-1.png" class="card-img-top"
@@ -507,72 +507,7 @@
                         <h4 class="title">Kursus Yang Populer</h4>
                         <button class="btn ms-auto">Semua Kursus</button>
                     </div>
-                    <div class="row mt-4" id="courses">
-                        <div class="col-md-4" id="course">
-                            <div class="card shadow">
-                                <img src="/assets/images/course-3.png" class="card-img-top" alt="Ini gambar course 1">
-                                <label for="label" class="label">Kursus</label>
-                                <div class="card-body">
-                                    <h5 class="title">Seni Budaya</h5>
-                                    <h5 class="category"><img src="/assets/icons/junior.png" alt=""> Junior</h5>
-                                    <p class="description mt-3 mb-5">Melatih ilmu kesenian pada tingkat junior dengan
-                                        mengajarkan dasar yang sangat baik</p>
-                                    <div class="d-flex text-center justify-content-center">
-                                        <a href="#" class="btn bgr-primary me-2 px-3 py-2"><i class="fas fa-star"></i>
-                                            5</a>
-                                        <a href="#" class="btn bgr-primary me-2 px-4 py-2"><i class="fas fa-user"></i>
-                                            20</a>
-                                        <a href="#" class="btn bgr-primary px-4 py-2">Umur 6+</a>
-                                    </div>
-                                    <div class="d-grid gap-2 mt-3">
-                                        <a class="btn bgr-alternatif" href="pages/detail-course.html">Bergabung </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4" id="course">
-                            <div class="card shadow">
-                                <img src="/assets/images/course-2.png" class="card-img-top" alt="Ini gambar course 1">
-                                <label for="label" class="label">Kursus</label>
-                                <div class="card-body">
-                                    <h5 class="title">Matematika</h5>
-                                    <h5 class="category"><img src="/assets/icons/senior.png" alt=""> Senior</h5>
-                                    <p class="description mt-3 mb-5">Melatih logika dan perhitungan dalam dunia
-                                        matematika. Belajar dari pemula sampai mahir</p>
-                                    <div class="d-flex text-center justify-content-center">
-                                        <a href="#" class="btn bgr-primary me-2 px-3 py-2"><i class="fas fa-star"></i>
-                                            5</a>
-                                        <a href="#" class="btn bgr-primary me-2 px-4 py-2"><i class="fas fa-user"></i>
-                                            20</a>
-                                        <a href="#" class="btn bgr-primary px-4 py-2">Umur 12+</a>
-                                    </div>
-                                    <div class="d-grid gap-2 mt-3">
-                                        <a class="btn bgr-alternatif" href="pages/detail-course.html">Bergabung </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4" id="course">
-                            <div class="card shadow">
-                                <img src="/assets/images/course-1.png" class="card-img-top" alt="Ini gambar course 1">
-                                <label for="label" class="label">Kursus</label>
-                                <div class="card-body">
-                                    <h5 class="title">IPA</h5>
-                                    <h5 class="category"><img src="/assets/icons/junior.png" alt=""> Junior</h5>
-                                    <p class="description mt-3 mb-5">Belajar mengenai hal-hal yang menarik seputar ilmu pengetahuan alam</p>
-                                    <div class="d-flex text-center justify-content-center">
-                                        <a href="#" class="btn bgr-primary me-2 px-3 py-2"><i class="fas fa-star"></i>
-                                            5</a>
-                                        <a href="#" class="btn bgr-primary me-2 px-4 py-2"><i class="fas fa-user"></i>
-                                            20</a>
-                                        <a href="#" class="btn bgr-primary px-4 py-2">Umur 6+</a>
-                                    </div>
-                                    <div class="d-grid gap-2 mt-3">
-                                        <a class="btn bgr-alternatif" href="pages/detail-course.html">Bergabung </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="row mt-4 courses" id="courses">
                     </div>
                 </div>
             </div>
@@ -727,7 +662,8 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
-    <script src="/../assets/js/function.js"></script>
+    <script src="/assets/js/function.js"></script>
+    <script src="/assets/js/courses.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

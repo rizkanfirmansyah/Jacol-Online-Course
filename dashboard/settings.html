@@ -268,40 +268,79 @@
     <main class="content mt-5">
 
         <div class="container">
-            <div class="row">
+            <div class="row" id="settings">
                 <div class="col-md-9">
-                    <h1 class="title text-uppercase">Dashboard</h1>
-                    <div class="card border-0 p-5 mt-4">
-                        <h2 class="title mb-3">Progress Belajar</h2>
-                        <canvas id="canvas-line"></canvas>
+                    <h1 class="title text-uppercase">Pengaturan</h1>
+                    <div class="card border-0 p-3 mt-4" id="card-1">
+                        <div class="row g-0 pt-4 pb-5">
+                            <div class="col-md-3 ms-3 position-relative">
+                                <div class="setting">
+                                    <h5>Akun</h5>
+                                    <a href="#" class="d-block mb-1">Edit Profile</a>
+                                    <a href="#" class="d-block mb-1 active">Ubah Password</a>
+                                    <a href="#" class="d-block mb-1">Lupa Password</a>
+                                </div>
+                                <hr>
+                                <div class="setting">
+                                    <h5>Umum</h5>
+                                    <a href="#" class="d-block mb-1">Notifikasi</a>
+                                    <a href="#" class="d-block mb-1">Pembayaran</a>
+                                    <a href="#" class="d-block mb-1">Alamat</a>
+                                    <a href="#" class="d-block mb-1">Ganti Bahasa</a>
+                                </div>
+                                <hr>
+
+                                <div class="help position-absolute bottom-0">
+                                    <a href="#" class="text-decoration-none"><b class="active">Pusat Bantuan</b></a>
+                                </div>
+                            </div>
+                            <div class="col-md-7 ms-5 mb-5 pb-5">
+                                <h4 class="title">Ubah Password</h4>
+                                <div class="mb-3 mt-4">
+                                    <label for="oldPassword" class="form-label">Password Lama Kamu</label>
+                                    <input type="password" class="form-control" id="oldPassword" placeholder="">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="newPassword" class="form-label">Password Baru Kamu</label>
+                                    <input type="password" class="form-control" id="newPassword" placeholder="">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="newPasswordConfirm" class="form-label">Ketik Ulang Password Baru
+                                        Kamu</label>
+                                    <input type="password" class="form-control" id="newPasswordConfirm" placeholder="">
+                                </div>
+                                <div class="row my-5">
+                                    <div class="col-lg-8">
+                                        <button class="btn primary-button w-100">Perbarui Password</button>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <button class="btn alternatif-button w-100">Reset</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3" id="sidebar">
                     <div class="card border-0 py-4">
                         <ul class="list-group border-0">
-                            <li class="border-0 list-group-item my-1 ms-4 active"><a href="#"
+                            <li class="border-0 list-group-item my-1 ms-4"><a href="index.html"
                                     class="text-decoration-none"><i class="fas fa-chart-area me-3"></i> Dashboard</a>
                             </li>
-                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none" href="class.html"><i
-                                        class="fas fa-list me-3"></i> Kelas Saya</a></li>
-                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none" href="my-profile.html"><i
-                                        class="fas fa-user me-3"></i> Profil Saya</a></li>
-                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none" href="achievement.html"><i
-                                        class="fas fa-trophy me-3"></i> Penghargaan</a></li>
-                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none" href="badge.html"><i
-                                        class="fa-solid fa-certificate me-3"></i> Lencana</a></li>
-                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none" href="settings.html"><i
-                                        class="fas fa-gear me-3"></i> Pengaturan</a></li>
+                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none"
+                                    href="class.html"><i class="fas fa-list me-3"></i> Kelas Saya</a></li>
+                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none"
+                                    href="my-profile.html"><i class="fas fa-user me-3"></i> Profil Saya</a></li>
+                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none"
+                                    href="achievement.html"><i class="fas fa-trophy me-3"></i> Penghargaan</a></li>
+                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none"
+                                    href="badge.html"><i class="fa-solid fa-certificate me-3"></i> Lencana</a></li>
+                            <li class="border-0 list-group-item my-1 ms-4 active"><a class="text-decoration-none"
+                                    href="settings.html"><i class="fas fa-gear me-3"></i> Pengaturan</a></li>
                             <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none"
                                     href="../index.html"><i class="fa-solid fa-right-from-bracket me-3"></i> Keluar</a>
                             </li>
                         </ul>
-                    </div>
-                </div>
-                <div class="col-md-9">
-                    <div class="card border-0 p-5 mt-4">
-                        <h2 class="title mb-3">Peningkatan Pelajaran</h2>
-                        <canvas id="canvas-line-2"></canvas>
                     </div>
                 </div>
             </div>

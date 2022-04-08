@@ -33,8 +33,12 @@ body {
 .section-highlight .title {
     font-size: 62px;
     font-family: 'PoppinsBold';
-    border-bottom: 15px solid #FFB93C;
-    display: inline-block;
+}
+
+.section-highlight .title .line-kuning {
+    border-bottom: 10px solid #FFB93C;
+    line-height: 0.4em;
+    display: inline-table;
 }
 
 .section-highlight .paragraph {
@@ -467,8 +471,12 @@ footer img {
 .section-jumbotron .title {
     font-family: 'NotoSansBold';
     font-size: 72px;
+}
+
+.section-jumbotron .title .line-kuning {
     border-bottom: 10px solid #FFB93C;
-    display: inline-block;
+    line-height: 0.4em;
+    display: inline-table;
 }
 
 .section-jumbotron .description {
@@ -1129,6 +1137,7 @@ footer img {
     background: url('../images/bg-about-us-2.png') 100% 100% no-repeat;
     background-size: contain;
 }
+
 .section-about-us #about-us-2 .title {
     font-family: 'PoppinsSemiBold';
     font-size: 20px;
@@ -1143,12 +1152,12 @@ footer img {
     color: #34364A;
 }
 
-.section-about-us #about-us-2 a i{
+.section-about-us #about-us-2 a i {
     color: #34364A;
     font-size: 21px;
     border-radius: 5px;
 }
 
-.section-about-us #about-us-2 .card img{
+.section-about-us #about-us-2 .card img {
     width: 212px;
 }

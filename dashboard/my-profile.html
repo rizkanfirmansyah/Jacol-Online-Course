@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="../assets/css/dashboard.css">
     <link rel="stylesheet" href="../assets/css/responsive-mobile.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
 </head>
 
 <body>
@@ -268,24 +270,87 @@
     <main class="content mt-5">
 
         <div class="container">
-            <div class="row">
+            <div class="row" id="my-profile">
                 <div class="col-md-9">
-                    <h1 class="title text-uppercase">Dashboard</h1>
-                    <div class="card border-0 p-5 mt-4">
-                        <h2 class="title mb-3">Progress Belajar</h2>
-                        <canvas id="canvas-line"></canvas>
+                    <h1 class="title text-uppercase">Profile Saya</h1>
+                    <div class="card p-5 mt-4 border-0">
+                        <div class="card-header">
+                            <a href="#" class="text-decoration-none btn"><i class="fas fa-gear"></i> Edit Profile</a>
+                        </div>
+                        <div class="card-body text-center body">
+                            <img src="/assets/images/profile-major.png" alt="">
+                            <h5 class="title mt-3">Jacob Ujang Alexander</h5>
+                            <h5 class="major">Kelas 6 Sekolah Dasar </h5>
+                        </div>
                     </div>
+
+                    <ul class="nav nav-tabs mx-auto" id="pills-tab" role="tablist">
+                        <li class="nav-item me-4" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#level"
+                                type="button" role="tab" aria-controls="level" aria-selected="true">Level</button>
+                        </li>
+                        <li class="nav-item ms-4" role="presentation">
+                            <button class="nav-link" id="peran-tab" data-bs-toggle="tab" data-bs-target="#peran"
+                                type="button" role="tab" aria-controls="peran" aria-selected="false">Peran</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content mt-5" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="level" role="tabpanel" aria-labelledby="level-tab">
+                            <div class="card mb-3 border-0" id="card-1">
+                                <div class="row g-0">
+                                    <div class="col-md-4 p-5">
+                                        <img src="/assets/images/img-level.png" class="img-fluid rounded-start"
+                                            alt="...">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="card-body text-center">
+                                            <h5 class="tag mt-4 mb-3 px-5 ">Level kamu saat ini</h5>
+                                            <h5 class="title text-uppercase">Junior</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3 border-0" id="card-2">
+                                <div class="row g-0">
+                                    <div class="col-md-7">
+                                        <div class="card-body ps-5">
+                                            <h5 class="tag mt-4 mb-3 pe-3">Pecahan level kamu saat ini</h5>
+                                            <h3 class="title text-uppercase">450</h3>
+                                            <h4 class="title text-uppercase">Perlu <b>250</b> lagi untuk menjadi
+                                                <span>Senior</span></h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 p-5">
+                                        <img src="/assets/images/img-level-2.png"
+                                            class="img-fluid rounded-start float-end" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade mt-5 " id="peran" role="tabpanel" aria-labelledby="peran-tab">
+                            <div class="row text-center justify-content-center">
+                                <h1 class="title">Kamu adalah seorang</h1>
+                                <img src="/assets/icons/main-role.png" alt="" class="img-fluid" style="max-width:370px">
+                                <div class="role-main-name mt-5">
+                                    <h1> <span class="text-uppercase">KESATRIA</span> <b
+                                            class="text-uppercase">KESATRIA</b></h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-md-3" id="sidebar">
                     <div class="card border-0 py-4">
                         <ul class="list-group border-0">
-                            <li class="border-0 list-group-item my-1 ms-4 active"><a href="#"
+                            <li class="border-0 list-group-item my-1 ms-4"><a href="index.html"
                                     class="text-decoration-none"><i class="fas fa-chart-area me-3"></i> Dashboard</a>
                             </li>
-                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none" href="class.html"><i
-                                        class="fas fa-list me-3"></i> Kelas Saya</a></li>
-                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none" href="my-profile.html"><i
-                                        class="fas fa-user me-3"></i> Profil Saya</a></li>
+                            <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none"
+                                    href="class.html"><i class="fas fa-list me-3"></i> Kelas Saya</a></li>
+                            <li class="border-0 list-group-item my-1 ms-4 active"><a class="text-decoration-none"
+                                    href="my-profile.html"><i class="fas fa-user me-3"></i> Profil Saya</a></li>
                             <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none" href="achievement.html"><i
                                         class="fas fa-trophy me-3"></i> Penghargaan</a></li>
                             <li class="border-0 list-group-item my-1 ms-4"><a class="text-decoration-none" href="badge.html"><i
@@ -298,12 +363,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-9">
-                    <div class="card border-0 p-5 mt-4">
-                        <h2 class="title mb-3">Peningkatan Pelajaran</h2>
-                        <canvas id="canvas-line-2"></canvas>
-                    </div>
-                </div>
+
             </div>
         </div>
 
@@ -326,6 +386,8 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
     <script src="https://www.chartjs.org/dist/2.6.0/Chart.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
 
     <script src="/assets/js/function.js"></script>
     <script src="/assets/js/script.js"></script>

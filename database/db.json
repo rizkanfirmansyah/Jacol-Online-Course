@@ -92,6 +92,81 @@
         "advantage": "Kamu akan mendapatkan tambahan kecerdasan dan empati yang luar biasa",
         "purpose": "Mempelajari segala sesuatu yang ada didunia"
       }
+    },
+    {
+      "id": 13,
+      "group": "course",
+      "img": "learn-1.png",
+      "title": "IPA",
+      "description" : "Belajar membuat gambar 2d sampai mewarnai gambar tersebut",
+      "category" : "kursus",
+      "active": false,
+      "level" : "junior",
+      "feature": {
+        "rating": 5,
+        "users" : 20,
+        "age": 6
+      }
+    },
+    {
+      "id": 14,
+      "group": "course",
+      "img": "learn-2.png",
+      "title": "Matematika",
+      "description" : "Melatih logika dan perhitungan dalam dunia matematika. Belajar dari pemula sampai mahir",
+      "category" : "kursus",
+      "active": false,
+      "level" : "senior",
+      "feature": {
+        "rating": 5,
+        "users" : 20,
+        "age": 6
+      }
+    },
+    {
+      "id": 15,
+      "group": "course",
+      "img": "learn-3.png",
+      "title": "Seni Budaya",
+      "description" : "Melatih ilmu kesenian pada tingkat junior dengan mengajarkan dasar yang sangat baik",
+      "category" : "kursus",
+      "active": false,
+      "level" : "junior",
+      "feature": {
+        "rating": 5,
+        "users" : 20,
+        "age": 6
+      }
+    },
+    {
+      "id": 16,
+      "group": "course",
+      "img": "learn-3.png",
+      "title": "Seni Budaya",
+      "description" : "Melatih ilmu kesenian pada tingkat junior dengan mengajarkan dasar yang sangat baik",
+      "category" : "kursus",
+      "active": false,
+      "level" : "junior",
+      "feature": {
+        "rating": 5,
+        "users" : 20,
+        "age": 6
+      }
+    },
+    {
+      "id": 30,
+      "group": "course",
+      "img": "learn-1.png",
+      "title": "Seni Budaya",
+      "description" : "Melatih ilmu kesenian pada tingkat junior dengan mengajarkan dasar yang sangat baik",
+      "category" : "modul",
+      "active": false,
+      "level" : "junior",
+      "feature": {
+        "rating": 5,
+        "users" : 20,
+        "age": 6
+      }
     }
   ]
 }
