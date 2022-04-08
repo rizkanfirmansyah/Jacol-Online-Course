@@ -11,12 +11,12 @@
         background-size: cover;
     }
 
-    .section-highlight .title {
+    /* .section-highlight .title {
         font-size: 28px;
         font-family: 'PoppinsBold';
         border-bottom: 5px solid #FFB93C;
         display: inline-block;
-    }
+    } */
 
     .section-highlight .paragraph {
         font-size: 14px;
