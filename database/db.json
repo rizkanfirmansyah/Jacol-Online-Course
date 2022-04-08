@@ -111,7 +111,7 @@
     {
       "id": 14,
       "group": "course",
-      "img": "learn-2.png",
+      "img": "course-2.png",
       "title": "Matematika",
       "description" : "Melatih logika dan perhitungan dalam dunia matematika. Belajar dari pemula sampai mahir",
       "category" : "kursus",
@@ -126,7 +126,7 @@
     {
       "id": 15,
       "group": "course",
-      "img": "learn-3.png",
+      "img": "course-3.png",
       "title": "Seni Budaya",
       "description" : "Melatih ilmu kesenian pada tingkat junior dengan mengajarkan dasar yang sangat baik",
       "category" : "kursus",
@@ -142,8 +142,8 @@
       "id": 16,
       "group": "course",
       "img": "learn-3.png",
-      "title": "Seni Budaya",
-      "description" : "Melatih ilmu kesenian pada tingkat junior dengan mengajarkan dasar yang sangat baik",
+      "title": "Seni Tari",
+      "description" : "Melatih siswa untuk menjadi penari yang handal dan juga hafal teknik tertentu dalam seni tari.",
       "category" : "kursus",
       "active": false,
       "level" : "junior",
@@ -154,11 +154,41 @@
       }
     },
     {
-      "id": 30,
+      "id": 29,
       "group": "course",
       "img": "learn-1.png",
-      "title": "Seni Budaya",
-      "description" : "Melatih ilmu kesenian pada tingkat junior dengan mengajarkan dasar yang sangat baik",
+      "title": "Membuat Origami",
+      "description" : "Belajar membuat origami dengan cara yang menyenangkan dan kreatif",
+      "category" : "modul",
+      "active": false,
+      "level" : "senior",
+      "feature": {
+        "rating": 5,
+        "users" : 20,
+        "age": 12
+      }
+    },
+    {
+      "id": 30,
+      "group": "course",
+      "img": "learn-3.png",
+      "title": "Menari",
+      "description" : "Belajar menari dengan tarian yang indah dan menawan",
+      "category" : "modul",
+      "active": false,
+      "level" : "senior",
+      "feature": {
+        "rating": 5,
+        "users" : 20,
+        "age": 12
+      }
+    },
+    {
+      "id": 31,
+      "group": "course",
+      "img": "learn-2.png",
+      "title": "Menyanyi",
+      "description" : "Belajar menyanyi dengan suara yang merdu dan enak untuk didengar",
       "category" : "modul",
       "active": false,
       "level" : "junior",
