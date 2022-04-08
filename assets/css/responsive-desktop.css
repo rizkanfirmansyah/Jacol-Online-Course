@@ -1,5 +1,3 @@
-
-
   /* (320x480) iPhone (Original, 3G, 3GS) */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     /* insert styles here */
@@ -259,6 +257,21 @@
     .about-us-2 h2 {
         font-size: 30px !important;
     }
+
+    .section-profile-1 {
+        background: url('../images/bg-about-1.png') 100% no-repeat;
+        background-size: cover;
+    }
+
+    .section-role h1 span {
+        position: absolute;
+        left: 500px;
+        color: #121212;
+        margin-top: 30px;
+        font-family: 'NotoSansBold';
+        font-size: 64px;
+    }
+    
 }
  
 /* (1600x900) HD+ Display */
