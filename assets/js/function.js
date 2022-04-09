@@ -18,7 +18,7 @@ fetchData("course").then((response) => {
     if (res.category == "kursus") {
       let number = Math.floor(Math.random() * 9 + 1);
       html += `<div class="col-md-3 col-6">
-                <a href="detail-course.html?id=${res.id}" class="text-decoration-none">
+                <a href="/pages/detail-course.html?id=${res.id}" class="text-decoration-none">
                     <div class="card border-0 bg-transparent">
                         <div class="row g-0">
                             <div class="col-md-2 mt-3">
